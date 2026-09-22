@@ -39,7 +39,7 @@ nav_order: 5
         decoding="async"
         data-zoomable
       >
-      <figcaption>Prof. Helvi Witek’s group. UIUC.</figcaption>
+      <figcaption>Prof. Helvi Witek’s group · UIUC</figcaption>
     </figure>
 
     <figure class="personal-photo personal-photo--wide">

@@ -110,7 +110,7 @@ wechat_qr:
 
 google_analytics:
 cronitor_analytics:
-google_site_verification:
+google_site_verification: y4r9bmB11DjMlDdGrW5gN4QT2rv-sVMnI8QHAU_Ogrc
 bing_site_verification:
 
 # -----------------------------------------------------------------------------
@@ -307,7 +307,7 @@ jekyll-diagrams:
 
 enable_google_analytics: false
 enable_cronitor_analytics: false
-enable_google_verification: false
+enable_google_verification: true
 enable_bing_verification: false
 enable_masonry: true
 enable_math: true
