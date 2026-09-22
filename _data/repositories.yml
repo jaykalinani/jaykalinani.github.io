@@ -1,5 +1,13 @@
-github_users:
-  - 
 
-github_repos:
-  - nkern/py21cmnet
+- owner: jaykalinani
+  repositories:
+    - AsterAI
+    - BHClusterX
+    - FlowTracerX
+    - ParticleAHFinderX
+    - nuX
+- owner: EinsteinToolkit
+  repositories:
+    - AsterX
+    - SpacetimeX
+    - CarpetX

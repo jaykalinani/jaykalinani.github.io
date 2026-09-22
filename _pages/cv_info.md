@@ -1,94 +1,63 @@
-[Updated July, 2025]
+<div class="cv-intro">
+  <p class="eyebrow">Updated September 2026</p>
+  <p class="page-lede">Postdoctoral researcher at the University of Illinois Urbana–Champaign working across numerical relativity, multimessenger astrophysics, and open-source high-performance computing.</p>
+</div>
 
-### Education
-- Ph.D., Astrophysics, University of California, Berkeley, 2020
-- M.S., Astrophysics, University of California, Berkeley, 2017
-- B.S., Physics, Astronomy, University of Michigan, 2015
+### Research interests
+
+Numerical relativity · gravitational waves · magnetohydrodynamics · compact binary mergers · multimessenger astrophysics · relativistic jets · radiation and neutrino transport · r-process nucleosynthesis · scientific applications of large language models
 
 ---
 
 ### Appointments
-- 2023 -- present, NASA Hubble Fellow, at University of Michigan
-- 2020 -- 2023, Pappalardo Fellow, at Massachusetts Institute of Technology
+
+- **Aug 2025–present** — Postdoctoral Researcher, University of Illinois Urbana–Champaign; advisor: Prof. Helvi Witek
+- **Jan 2023–Jul 2025** — Postdoctoral Researcher, Center for Computational Relativity and Gravitation, Rochester Institute of Technology; advisor: Prof. Manuela Campanelli
+- **Jan–Dec 2022** — Postdoctoral Researcher, INAF–Padova; advisor: Dr. Riccardo Ciolfi
 
 ---
 
-### Selected Publications
+### Education
 
-Lead author (9), \*student-advised (5). See my <a href="https://ui.adsabs.harvard.edu/search/p_=0&q=author%3A%22Kern%2C%20Nicholas%20S%22%20year%3A2010-2030&sort=date%20desc%2C%20bibcode%20desc" target="_blank">ADS library</a> for a full list of publications.
-
-\*Kim, H., Hewitt, J., **Kern, N.** et al. 2025, "Exploring One-point Statistics in HERA Phase I Data: Effects of Foregrounds and Systematics on Measuring One-Point Statistics." Submitted to ApJ
-
-**Kern, N.** 2025, "A Differentiable, End-to-End Forward Model for 21 cm Cosmology: Estimating the Foreground, Instrument, and Signal Joint Posterior." <a href="https://academic.oup.com/mnras/article/541/2/687/8169320" target="_blank">MNRAS 541 687K</a>, <a href="https://arxiv.org/abs/2504.07090" target="_blank">arXiv:2504.07090</a>
-
-\*Pascua, R., Martinot, Z., Liu, A., Aguirre, J., **Kern, N.** et al. 2024, "A Generalized Method for Characterizing 21-cm Power Spectrum Signal Loss from Temporal Filtering of Drift-scanning Visibilities." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/adc37d" target="_blank">ApJ 985 127P</a>, <a href="https://arxiv.org/abs/2410.01872" target="_blank">arXiv:2410.01872</a>
-
-\*Charles, N., **Kern, N.**, Bernardi, G. et al. 2024, "Mitigating calibration errors from mutual coupling with time-domain filtering." <a href="https://academic.oup.com/mnras/article/534/4/3349/7815199" target="_blank">MNRAS 534 3349C</a>, <a href="https://arxiv.org/abs/2407.20923" target="_blank">arXiv:2407.20923</a>
-
-\*Kim, H., **Kern, N.**, Hewitt, J. et al. 2023, "The Impact of Beam Variations on Power Spectrum Estimation for 21 cm Cosmology. II. Mitigation of Foreground Systematics for HERA." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ace35e/meta" target="_blank"> ApJ 953 136</a>, <a href="https://arxiv.org/abs/2307.12826" target="_blank">arXiv:2307.12826</a>
-
-\*Charles, N., **Kern, N.**, Bernardi, G. et al. 2023, "On the use of temporal filtering for mitigating galactic synchrotron calibration bias in 21 cm reionization observations." <a href="https://academic.oup.com/mnras/article/522/1/1009/7110995" target="_blank">MNRAS 522 1009C</a>, <a href="https://arxiv.org/abs/2302.00269" target="_blank">arXiv:2302.00269</a>
-
-Barry, N., Bernardi, G., Greig, B., **Kern, N.** (lead author), and Mertens, F. 2022, "SKA-Low Intensity Mapping Pathfinder Updates: Deeper 21 cm Power Spectrum Limits from Improved Analysis Frameworks." <a href="https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-8/issue-01/011007/SKA-low-intensity-mapping-pathfinder-updates--deeper-21cm-power/10.1117/1.JATIS.8.1.011007.full" target="_blank">JATIS 8a1007B</a>, <a href="https://arxiv.org/abs/2110.06173" target="_blank">arXiv:2110.06173</a>
-
-HERA Collaboration 2022, including **Kern, N.** (lead author), "First Results from HERA Phase I: Upper Limits on the Epoch of Reionization 21 cm Power Spectrum." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac1c78" target="_blank">ApJ 925 221A</a>, <a href="https://arxiv.org/abs/2108.02263" target="_blank">arXiv:2108.02263</a>
-
-**Kern, N.** and Liu, A. 2021, "Gaussian Process Foreground Subtraction and Power Spectrum Estimation for 21 cm Cosmology." <a href="https://academic.oup.com/mnras/article/501/1/1463/6017312" target="_blank">MNRAS 501 1463K</a>, <a href="https://arxiv.org/abs/2010.15892" target="_blank">arXiv:2010.15892</a>
-
-**Kern, N.**, Dillon, J., Parsons, A. et al. 2020, "Absolute Calibration Strategies for the Hydrogen Epoch of Reionization Array and Their Impact on the 21 cm Power Spectrum." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab67bc" target="_blank">ApJ 890 122</a>, <a href="https://arxiv.org/abs/1910.12943" target="_blank">arXiv:1910.12943</a>
-
-**Kern, N.**, Parsons, A., Dillon, J. et al. 2020, "Mitigating Internal Instrument Coupling for 21cm Cosmology. II. A Method Demonstration with the Hydrogen Epoch of Reionization Array." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab5e8a" target="_blank">ApJ 888 70</a>, <a href="https://arxiv.org/abs/1909.11733" target="_blank">arXiv:1909.11733</a>
-
-**Kern, N.**, Parsons, A., Dillon, J. et al. 2019, "Mitigating Internal Instrument Coupling for 21cm Cosmology. I. Temporal and Spectral Modeling in Simulations." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab3e73" target="_blank">ApJ 884 105</a>, <a href="https://arxiv.org/abs/1909.11732" target="_blank">arXiv:1909.11732</a>
-
-**Kern, N.**, Liu, A., Parsons, A. et al. 2017, "Emulating Simulations of Cosmic Dawn for 21 cm Power Spectrum Constraints on Cosmology, Reionization and X-ray Heating." <a href="https://iopscience.iop.org/article/10.3847/1538-4357/aa8bb4" target="_blank">ApJ 848 23</a>, <a href="https://arxiv.org/abs/1705.04688" target="_blank">arXiv:1705.04688</a>
-
-**Kern, N.**, Keown, J., Tobin, J., et al. 2016, "Radio properties of young stellar objects in the Serpens South Infrared Dark Cloud." <a href="https://iopscience.iop.org/article/10.3847/0004-6256/151/2/42" target="_blank">AJ 151 42</a>, <a href="https://arxiv.org/abs/1511.09082" target="_blank">arXiv:1511.09082</a>
+- **Ph.D. in Physics**, University of Padova, 2021 — *summa cum laude*  
+  Thesis: *Binary Neutron Star Mergers in the Era of Multi-Messenger Astrophysics*
+- **M.S. in Astrophysics**, AstroMundus Programme, 2018 — 110/110 *cum laude*  
+  Thesis: *GRMHD Simulations of Binary Neutron Star Mergers*
+- **M.S. in Applied Solid State Physics**, M.S. Ramaiah University of Applied Sciences, 2016
+- **B.Tech. in Nuclear Science & Engineering**, SRM University, 2014
 
 ---
 
-### Selected Talks
+### Research, software &amp; computing
 
-##### Upcoming
+- Lead developer and maintainer of **AsterX**, **nuX**, **AsterAI**, **BHClusterX**, **FlowTracerX**, and **ParticleAHFinderX**; developer or contributor to **Spritz**, **SpacetimeX**, **CarpetX**, and **RePrimAnd**.
+- Principal investigator or co-investigator on **27 computational grants**, totaling more than **50.4 million CPU-hours** and **1 million GPU-hours**; PI on 10 of those awards.
+- Co-investigator on the €131K MAECI JetOut collaboration on short gamma-ray burst jets from binary neutron star mergers.
+- **18 journal articles**, more than **550 citations**, and h-index **12** as reported by NASA ADS in the September 2026 CV.
 
-| Event        | Date           | Type |
-| :----------- | :------------  | :--- |
-| Cosmo-25 Conference <br> Pittsburgh, PA | October, 2025 | contributed talk |
-| NASA Hubble Symposium <br> Baltimore, MD | October, 2025 | contributed talk |
-| 21cm Global Signal Conference <br> Caltech, Pasadena, CA | September, 2025 | contributed talk |
-| Astronomy Colloquium <br> U. Toledo, Toledo, OH | September, 2025 | invited talk |
-| HEP-Astro Seminar <br> U. Michigan, Ann Arbor, MI | September, 2025 | invited talk |
-| Cosmology Seminar <br> U. Illinois, Urbana-Champaign, IL | September, 2025 | invited talk |
-| Astronomy Colloquium <br> U. Illinois, Urbana-Champaign, IL | September, 2025 | invited talk |
+---
 
-<br>
+### Leadership, teaching &amp; mentoring
 
-##### Past
+- Local and scientific organizer of the 2026 North American Einstein Toolkit Workshop and School at UIUC.
+- Local organizer of the 2025 CSSI Einstein Toolkit Hackathon; team lead for the AsterX/CarpetX group at the 2023 Frontier Hackathon.
+- Guest lecturer in Classical Mechanics at UIUC and on GRMHD and numerical methods at RIT; designer and presenter of CarpetX and AsterX tutorials.
+- Co-mentor to graduate researchers Allen Wen, Amara Nusbickel, Maxwell Rizzo, Noora Ghadiri, and Freddy Pardoe.
+- Reviewer for the National Science Foundation, Physical Review journals, *Classical and Quantum Gravity*, and *Astronomy & Astrophysics*.
 
-| Event        | Date           | Type |
-| :----------- | :------------  | :--- |
-| Cosmology From Home Conference <br> Virtual | June, 2025 | contributed talk |
-| Cosmology Seminar <br> U. Wisconsin, Madison, WI | May, 2025 | invited talk |
-| Multicolor LIM Conference <br> IWH, Heidelberg, Germany | December, 2024 | contributed talk |
-| NASA Hubble Symposium <br> | September, 2024 | contributed talk |
-| 243th AAS Meeting <br> New Orleans, LA | January, 2024 | contributed talk
-| Theoretical Cosmology Seminar <br> Johns Hopkins, Baltimore, MD | December, 2023 | invited talk |
-| NASA Hubble Symposium <br> Cambridge, MA | September, 2023 | contributed talk |
-| Wisconsin 21 cm Workshop <br> U. Wisconsin, Madison, WI | August, 2022 | contributed talk |
-| 3rd URSI Atlantic Radio Science Meeting <br> Gran Canaria, Spain | June, 2022 | invited talk |
-| ASTRON/JIVE Colloquim <br> ASTRON, Dwingeloo, Netherlands | March, 2022 | invited talk |
-| Royal Astronomical Society Specialist Discussion <br> Virtual | December, 2021 | invited talk |
-| Science at Low Frequencies <br> Virtual | December, 2021 | invited talk |
-| Astrophysics Seminar <br> Johns Hopkins, Baltimore, MD | November, 2021 | invited talk |
-| INAF Joint Astrophysics Colloquium <br> INAF, Bologna, Italy| November, 2021 | invited talk |
-| Pappalardo Research Symposium <br> MIT, Cambridge, MA | May, 2021 | invited talk |
-| A Precursor View of the SKA Sky <br> Virtual | March, 2021 | invited talk |
-| First Billion Years Conference <br> IIT Indore, Indore, India | January, 2020 | invited talk |
-| Observational Cosmology Seminar <br> Caltech, Pasadena, CA | December, 2019 | seminar talk |
-| CfA SMA Seminar <br> Harvard, Cambridge, MA | November, 2019 | seminar talk |
-| MKI Lunch Talks <br> MIT, Cambridge, MA | November, 2019 | seminar talk |
-| BCCP Cosmology Workshop <br> Berkeley, CA | January, 2018 | invited talk |
-| JILA Astrophysics Seminar <br> U. Colorado, Boulder, CO| October, 2017 | invited talk |
-| NASA Machine Learning Workshop <br> Ames Research Center, CA| August, 2017 | invited talk |
+---
 
+### Selected recognition
 
+- Argonne Training Program on Extreme-Scale Computing, 2026
+- UIUC STEP program, 2025–2026
+- Cariparo Ph.D. scholarship, 2018–2021
+- Best Ph.D. Student Talk, PHAROS Conference, 2019
+- AstroMundus consortium scholarship, 2016–2018
+- Best Master Thesis Award, M.S. Ramaiah University, 2016
+
+---
+
+### Contact
+
+[jkalinan@illinois.edu](mailto:jkalinan@illinois.edu) · [GitHub](https://github.com/jaykalinani) · [ORCID](https://orcid.org/0000-0002-2945-1142) · [Google Scholar](https://scholar.google.com/citations?user=wng9EVEAAAAJ&hl=en)

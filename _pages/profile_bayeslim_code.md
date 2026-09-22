@@ -1,7 +1,7 @@
 ### <a class="table" href="/bayeslim">BayesLIM</a>
 
 <img src="../assets/img/square-github.svg" width="17" height="17">
-<a href="https://github.com/nkern/BayesLIM" target="_blank">github/BayesLIM</a>
+<a href="https://github.com/jaykalinani/BayesLIM" target="_blank">github/BayesLIM</a>
 |
 <img src="../assets/img/ReadtheDocs.svg" width="17" height="17">
 <a href="https://bayeslim.readthedocs.io/en/latest/#" target="_blank">bayeslim.readthedocs.io</a>

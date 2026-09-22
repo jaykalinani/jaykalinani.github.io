@@ -1,0 +1,35 @@
+- category: animal-care
+  src: /assets/img/personal/animal-care-luca.webp
+  alt: Luca, a gray-and-white tabby cat, looking upward while sitting beside Jay
+  caption: A quiet moment with Luca.
+
+- category: animal-care
+  src: /assets/img/personal/animal-care-miguel.webp
+  alt: Miguel, an orange tabby cat, in the foreground with Jay smiling behind him
+  caption: Miguel, up close.
+
+- category: animal-care
+  src: /assets/img/personal/animal-care-joey.webp
+  alt: Jay smiling as Joey, a tan-and-white dog, licks his cheek outdoors
+  caption: Joey’s idea of a perfect greeting.
+
+- category: animal-care
+  src: /assets/img/personal/animal-care-adoption-day.webp
+  alt: Jay taking a selfie with an orange-and-white cat on the cat’s adoption day
+  caption: Adoption day.
+
+- category: travel
+  src: /assets/img/personal/travel-venice.webp
+  alt: Boats moving along a canal lined with buildings in Venice
+  caption: On the water in Venice.
+  featured: true
+
+- category: travel
+  src: /assets/img/personal/travel-cagliari.webp
+  alt: The limestone facade and monumental staircase of the Bastione di Saint Remy in Cagliari
+  caption: Bastione di Saint Remy, Cagliari.
+
+- category: travel
+  src: /assets/img/personal/travel-cologne.webp
+  alt: Colorful gabled buildings beneath a cloudy sky in Cologne
+  caption: Old-town rooftops in Cologne.

@@ -1,76 +1,132 @@
 {
   "bio": {
-    "name": "Nicholas Kern",
-    "label": "Scientist",
-    "image": "",
-    "email": "nkern@mit.edu",
-    "url": "https://nkern.github.io",
-    "summary": "Astrophysicist",
+    "name": "Jay Vijay Kalinani",
+    "label": "Computational Astrophysicist",
+    "image": "assets/img/prof_pic.png",
+    "email": "jkalinan@illinois.edu",
+    "url": "https://jaykalinani.github.io",
+    "summary": "Postdoctoral researcher developing GPU-accelerated numerical-relativity, GRMHD, and neutrino-transport software for multimessenger astrophysics.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Urbana–Champaign",
+      "region": "Illinois",
+      "countryCode": "US"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "jaykalinani",
+        "url": "https://github.com/jaykalinani"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0002-2945-1142",
+        "url": "https://orcid.org/0000-0002-2945-1142"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "name": "University of Illinois Urbana–Champaign",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2025-08",
+      "endDate": "",
+      "summary": "Numerical relativity, GRMHD, neutrino transport, and open-source exascale software."
+    },
+    {
+      "name": "Rochester Institute of Technology",
+      "position": "Postdoctoral Researcher, Center for Computational Relativity and Gravitation",
+      "startDate": "2023-01",
+      "endDate": "2025-07",
+      "summary": "Compact-object mergers, relativistic jets, and GPU-accelerated GRMHD."
+    },
+    {
+      "name": "INAF–Padova",
+      "position": "Postdoctoral Researcher",
+      "startDate": "2022-01",
+      "endDate": "2022-12",
+      "summary": "Binary neutron star merger simulations and relativistic outflows."
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "organization": "Skype A Scientist",
+      "position": "Volunteer scientist",
+      "startDate": "2020",
+      "endDate": "",
+      "summary": "Astronomy sessions for classrooms and families."
+    }
+  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "institution": "University of Padova",
+      "area": "Physics",
+      "studyType": "Ph.D.",
+      "startDate": "2018-10",
+      "endDate": "2021-12",
+      "score": "Summa cum laude",
+      "courses": []
+    },
+    {
+      "institution": "AstroMundus Programme",
+      "area": "Astrophysics",
+      "studyType": "M.S.",
+      "startDate": "2016-10",
+      "endDate": "2018-09",
+      "score": "110/110 cum laude",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Cariparo Ph.D. Scholarship",
+      "date": "2018–2021",
+      "awarder": "Fondazione Cariparo",
+      "summary": "Doctoral scholarship at the University of Padova."
+    },
+    {
+      "title": "Best Ph.D. Student Talk",
+      "date": "2019",
+      "awarder": "PHAROS Conference",
+      "summary": "Awarded in Playa de Aro, Spain."
     }
   ],
   "certificates": [],
   "publications": [],
-  "skills": [],
-  "languages": [
+  "skills": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
+      "name": "Scientific computing",
+      "level": "Advanced",
+      "keywords": ["C++", "Python", "Fortran", "GPU computing", "AMReX", "Cactus"]
     }
   ],
-  "interests": [],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research",
+      "keywords": ["Numerical relativity", "GRMHD", "Compact binary mergers", "Radiation transport", "Scientific AI"]
+    }
+  ],
   "references": [],
-  "projects": []
+  "projects": [
+    {
+      "name": "AsterX",
+      "description": "Open-source GPU-accelerated GRMHD for dynamical spacetimes.",
+      "url": "https://github.com/EinsteinToolkit/AsterX"
+    },
+    {
+      "name": "nuX",
+      "description": "GPU-accelerated moment-based neutrino radiation transport.",
+      "url": "https://github.com/jaykalinani/nuX"
+    },
+    {
+      "name": "AsterAI",
+      "description": "AI-assisted code review for numerical relativity.",
+      "url": "https://github.com/jaykalinani/AsterAI"
+    }
+  ]
 }

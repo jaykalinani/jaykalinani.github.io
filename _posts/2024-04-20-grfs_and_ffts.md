@@ -4,6 +4,7 @@ title: Simulating 3D Gaussian random fields in Python
 date: 2024-04-20
 tags: signal-processing statistics
 author: Nicholas Kern
+published: false
 mathjax: true
 description: 
 mermaid:
@@ -412,4 +413,3 @@ As a side-note: what kind of window function should we expect in the case of tak
 ## Summary
 ---
 In this post we went through how to simulate a discrete Gaussian random field in Python, and how to faithfully estimate its power spectrum in a manner that is invariant to the size of the box that we simulated. We discussed Fourier conventions and how the appropriate choice of convention satisfies the former constraint. Finally, we showed in practice how this works, and reviewed some basic signal processing theory to show that indeed our derived GRF power spectra are in good agreement with each other, regardless of the size of the box we use to compute them.
-

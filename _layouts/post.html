@@ -39,23 +39,28 @@ layout: default
     </p>
   </header>
 
-  <article class="post-content">
-    {% if page.toc and page.toc.beginning %}
-    <div id="table-of-contents">
-      {% toc %}
-    </div>
-    <hr>
-    {% endif %}
-    <div id="markdown-content">
-      {{ content }}
-    </div>
-  </article>
+<article class="post-content">
+  {% if page.toc and page.toc.beginning %}
+  <div id="table-of-contents">
+    <!-- TOC placeholder removed because jekyll-toc plugin not installed -->
+    <h2>Contents</h2>
+    <p>(Table of contents will appear here when plugin is enabled)</p>
+  </div>
+  <hr>
+  {% endif %}
+  <div id="markdown-content">
+    {{ content }}
+  </div>
+</article>
+
 
   {%- if page.related_publications != null and page.related_publications.size > 0 -%}
   {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
   <h2>References</h2>
   <div class="publications">
-    {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+	  {% comment %}  
+      {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+      {% endcomment %}
   </div>
   {%- endif %}
 

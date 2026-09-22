@@ -3,9 +3,10 @@ layout: cv
 permalink: /resume/
 title: resume
 nav: false
-nav_order: 6
-cv_pdf: ml_resume.pdf
-description:
-toc:
-  sidebar: left
+cv_pdf: Kalinani_CV.pdf
+description: Current curriculum vitae and professional summary.
+
+profiles:
+  - align: left
+    content: cv_info.md
 ---

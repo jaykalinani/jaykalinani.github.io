@@ -16,6 +16,9 @@
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.2);
   --global-card-bg-color: #{$white-color};
+  --global-surface-color: #f6f8fc;
+  --global-accent-soft: #e8efff;
+  --global-shadow-color: rgba(15, 23, 42, 0.08);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -61,6 +64,9 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-surface-color: #252a32;
+  --global-accent-soft: #162c56;
+  --global-shadow-color: rgba(0, 0, 0, 0.28);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

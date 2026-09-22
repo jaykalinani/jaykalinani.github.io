@@ -1,38 +1,16 @@
 ---
-layout: profiles
+layout: page
 permalink: /code/
-title: code
-description: <p>Some of the open-source projects I work on. See my <a href="https://github.com/nkern">GitHub page</a> for a more complete list.</p>
-nav: true
-nav_order: 3
-
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: icon_dark.jpg
-    content: profile_bayeslim_code.md
-    image_circular: false # crops the image to make it circular
-    more_info:
-
-  - align: right
-    image: h1c_idr2_flow.png
-    content: profile_heracal.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>A software flowchart for the HERA analysis pipeline.</p>
-
-  - align: right
-    image: py21cmnet.png
-    content: profile_py21cmnet.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Cosmological image segmentation with convolutional neural networks.</p>
-
-  - align: right
-    image: comparison_tri_plot.png
-    content: profile_emupy.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Posterior inference of a Cosmic Dawn simulation, accelerated with emulators.</p>
+title: software
+description: Open-source software for numerical relativity and relativistic astrophysics.
+nav: false
 ---
+
+My current software portfolio now has a dedicated [software page]({{ '/software/' | relative_url }}).
+
+- [AsterX](https://github.com/EinsteinToolkit/AsterX) — GPU-accelerated GRMHD for dynamical spacetimes
+- [nuX](https://github.com/jaykalinani/nuX) — moment-based neutrino radiation transport
+- [AsterAI](https://github.com/jaykalinani/AsterAI) — AI-assisted scientific code review
+- [SpacetimeX](https://github.com/EinsteinToolkit/SpacetimeX) — spacetime initialization and evolution
+- [CarpetX](https://github.com/EinsteinToolkit/CarpetX) — AMReX-based Cactus driver
+- [RePrimAnd](https://wokast.github.io/RePrimAnd/index.html) — primitive recovery and equation-of-state framework

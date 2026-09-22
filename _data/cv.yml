@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Nicholas Kern
-#    - name: Date of Birth
-#      value: 14th March 1879
-    - name: Languages
-      value: English
+      value: Jay Vijay Kalinani
+    - name: Current Position
+      value: Postdoctoral Researcher, University of Illinois Urbana–Champaign
+    - name: Research Areas
+      value: Numerical relativity, GRMHD, multimessenger astrophysics, radiation transport, and high-performance computing
 
-#- title: Education
-#  type: time_table
-#  contents:
-#    - title: PhD
-#      institution: University of Zurich, Zurich, Switzerland
-#      year: 1905
-#      description:
-#        - Description 1.
-#        - Description 2.
-#        - title: Description 3.
-#          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
-#    - title: Federal teaching diploma
-#      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#      year: 1900
-#      description:
-#        - Description 1.
-#        - Description 2.
-
-- title: Experience
+- title: Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: University of Illinois Urbana–Champaign
+      year: Aug 2025–present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Advisor: Prof. Helvi Witek
+    - title: Postdoctoral Researcher
+      institution: Center for Computational Relativity and Gravitation, Rochester Institute of Technology
+      year: Jan 2023–Jul 2025
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Advisor: Prof. Manuela Campanelli
+    - title: Postdoctoral Researcher
+      institution: INAF–Padova
+      year: Jan–Dec 2022
       description:
+        - Advisor: Dr. Riccardo Ciolfi
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Ph.D. in Physics
+      institution: University of Padova
+      year: 2018–2021
+      description:
+        - Summa cum laude
+        - Binary Neutron Star Mergers in the Era of Multi-Messenger Astrophysics
+    - title: M.S. in Astrophysics
+      institution: AstroMundus Programme
+      year: 2016–2018
+      description:
+        - 110/110 cum laude
+    - title: M.S. in Applied Solid State Physics
+      institution: M.S. Ramaiah University of Applied Sciences
+      year: 2014–2016
+    - title: B.Tech. in Nuclear Science & Engineering
+      institution: SRM University
+      year: 2010–2014
 
-- title: Honors and Awards
+- title: Open-source Software
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: BHClusterX
+      year: 2026–present
+      description: Lead developer and maintainer
+    - title: FlowTracerX
+      year: 2026–present
+      description: Lead developer and maintainer
+    - title: ParticleAHFinderX
+      year: 2026–present
+      description: Lead developer and maintainer
+    - title: AsterAI
+      year: 2025–present
+      description: Lead developer and maintainer
+    - title: nuX
+      year: 2024–present
+      description: Lead developer and maintainer
+    - title: AsterX
+      year: 2022–present
+      description: Lead developer and maintainer
+    - title: Spritz
+      year: 2020–present
+      description: Developer
+    - title: SpacetimeX
+      year: 2022–present
+      description: Developer
+    - title: CarpetX
+      year: 2022–present
+      description: Contributor
+    - title: RePrimAnd
+      year: 2021
+      description: Contributor
 
-- title: Academic Interests
-  type: nested_list
+- title: Selected Recognition
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2026
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Argonne Training Program on Extreme-Scale Computing
+    - year: 2025–2026
+      items:
+        - UIUC STEP program
+    - year: 2018–2021
+      items:
+        - Cariparo Ph.D. scholarship
+    - year: 2019
+      items:
+        - Best Ph.D. Student Talk, PHAROS Conference
+    - year: 2016–2018
+      items:
+        - AstroMundus consortium scholarship
