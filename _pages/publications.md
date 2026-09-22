@@ -107,7 +107,7 @@ nav_order: 3
 
 <p class="page-cta">
   The complete publication record is available in my
-  <a href="{{ '/assets/pdf/Kalinani_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>,
+  <a href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20260922' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>,
   on <a href="https://scholar.google.com/citations?user=wng9EVEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>,
   and through <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Kalinani%2C%20Jay%20V%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0" target="_blank" rel="noopener noreferrer">NASA ADS</a>.
 </p>

@@ -45,7 +45,7 @@ nav_order: 4
   <article><time datetime="2024-04">Apr 2024</time><div><h2>End-to-end modelling of jets from binary neutron star mergers</h2><p>APS April Meeting · Sacramento, USA</p></div></article>
 </div>
 
-<p class="page-cta">The complete chronological record is available in my <a href="{{ '/assets/pdf/Kalinani_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>.</p>
+<p class="page-cta">The complete chronological record is available in my <a href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20260922' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>.</p>
 
 <h2 class="section-heading" id="teaching-community">Teaching, mentoring &amp; community</h2>
 
