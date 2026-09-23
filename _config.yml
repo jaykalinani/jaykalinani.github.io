@@ -211,7 +211,6 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-scholar
-  - jekyll-sitemap
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
