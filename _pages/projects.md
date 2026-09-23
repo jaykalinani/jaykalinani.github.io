@@ -30,7 +30,7 @@ nav_order: 1
 <figure class="science-hero">
   <img
     src="{{ '/assets/img/publications/smbh-jet-kinks.webp' | relative_url }}"
-    alt="Three-dimensional rendering of a circumbinary accretion disk and its distorted bipolar jet"
+    alt="Three-dimensional rendering of circumbinary-disk rest-mass density and selected helical magnetic field lines in the bipolar jet"
     width="1800"
     height="1424"
     decoding="async"
@@ -38,8 +38,8 @@ nav_order: 1
   >
   <figcaption>
     <span class="media-kicker">Submitted to ApJL · 2026</span>
-    <strong>Black-hole–disk collisions and jet precession</strong>
-    <span>A circumbinary accretion flow around a small mass-ratio supermassive black-hole binary, with field lines tracing the distorted bipolar jet.</span>
+    <strong>Disk impacts and jet precession</strong>
+    <span>Rest-mass density in the circumbinary disk around a small-mass-ratio supermassive black-hole binary, with selected magnetic field lines showing kink-like deformations in the bipolar jet.</span>
   </figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ nav_order: 1
     <span>01 · Neutron-star mergers</span>
     <div>
       <h3>Binary neutron star mergers</h3>
-      <p>Finite-temperature equations of state, neutrino transport, and magnetic fields reveal how composition, spin, and remnant structure shape outflows, jet conditions, kilonova ejecta, and r-process nucleosynthesis. The movie follows a later black-hole–disk jet as it propagates through the polar environment launched before delayed collapse.</p>
+      <p>Across complementary simulations, I study how the equation of state, neutrino transport, magnetic fields, spin, and remnant lifetime shape merger ejecta, nucleosynthesis, and the conditions for jet formation. The movie shows a black-hole–disk incipient jet propagating through the dense polar outflow launched by the massive-neutron-star remnant before its delayed collapse.</p>
     </div>
   </div>
 
@@ -70,7 +70,7 @@ nav_order: 1
       </div>
       <div class="simulation-card__copy">
         <h3>A jet pushing through its environment</h3>
-        <p>Synchronized views of density, radial velocity, magnetic-field strength, and magnetization follow the incipient jet as it encounters the pre-collapse outflow.</p>
+        <p>Synchronized meridional views of rest-mass density, radial velocity, magnetic-field strength, and magnetization show the incipient black-hole–disk jet interacting with the polar outflow launched before collapse.</p>
         <a class="simulation-card__link" href="https://arxiv.org/abs/2505.09426" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
       </div>
     </article>
@@ -82,7 +82,7 @@ nav_order: 1
     <span>02 · Supermassive binaries</span>
     <div>
       <h3>Supermassive black hole binaries</h3>
-      <p>Three-dimensional GRMHD simulations follow gas dynamics and accretion around an unequal-mass binary embedded in a magnetized circumbinary disk. They connect repeated black-hole–disk encounters, asymmetric accretion, and jet precession with quasi-periodic outflows and changing electromagnetic signatures.</p>
+      <p>Three-dimensional GRMHD simulations follow a precessing binary with mass ratio q = 1/7 embedded in a magnetized circumbinary disk. Repeated passages of the secondary through the inner accretion flow alternately load the two jet funnels, producing quasi-periodic outflows; the jet also precesses, reverses its magnetic handedness, and undergoes two weakening episodes.</p>
       <a class="simulation-chapter__link" href="https://arxiv.org/abs/2609.24837" target="_blank" rel="noopener noreferrer">Related preprint <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -112,7 +112,7 @@ nav_order: 1
       </div>
       <div class="simulation-card__copy">
         <h3>Global jet structure</h3>
-        <p>A wide 3D view of the circumbinary disk and the evolving magnetic field lines threading its jet.</p>
+        <p>A wide 3D view of the circumbinary disk and the evolving magnetic-field geometry associated with its jet.</p>
       </div>
     </article>
 
@@ -137,7 +137,7 @@ nav_order: 1
     <span>03 · AsterX</span>
     <div>
       <h3>AsterX — GPU-accelerated GRMHD code</h3>
-      <p>AsterX is an open-source general-relativistic magnetohydrodynamics code for dynamical spacetimes, built on CarpetX/AMReX within the Einstein Toolkit. It supports adaptive mesh refinement, high-resolution shock capturing, tabulated equations of state, and production simulations on as many as 4,096 Frontier nodes.</p>
+      <p>AsterX is an open-source, modular, GPU-accelerated GRMHD code for dynamical spacetimes, built on CarpetX/AMReX within the Einstein Toolkit. It supports block-structured adaptive mesh refinement, high-resolution shock capturing, and tabulated equations of state; weak-scaling tests reached 4,096 Frontier nodes with 67–77% efficiency relative to eight nodes.</p>
       <a class="simulation-chapter__link" href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">AsterX repository <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -153,7 +153,7 @@ nav_order: 1
       </div>
       <div class="simulation-card__copy">
         <h3>Kelvin–Helmholtz instability</h3>
-        <p>Density and velocity-colored passive tracer particles follow the roll-up of a shearing layer across the adaptive mesh.</p>
+        <p>The background shows the density field; passive tracer particles, colored by fluid velocity, follow the Kelvin–Helmholtz roll-up across the adaptive mesh.</p>
       </div>
     </article>
 
@@ -167,7 +167,7 @@ nav_order: 1
       </div>
       <div class="simulation-card__copy">
         <h3>Magnetized post-merger remnant</h3>
-        <p>Density isosurfaces and magnetic field lines expose the turbulent structure left after two neutron stars merge.</p>
+        <p>Rest-mass-density isosurfaces and selected field-line tracers, colored by magnetic-field strength, visualize the turbulent post-merger remnant.</p>
       </div>
     </article>
   </div>
@@ -178,7 +178,7 @@ nav_order: 1
     <span>04 · nuX</span>
     <div>
       <h3>nuX — GPU-accelerated M1 neutrino transport code</h3>
-      <p>nuX evolves the first two angular moments of the neutrino radiation field on GPUs and is designed to couple tightly with AsterX. It targets multimessenger GRMHD simulations with realistic neutrino cooling, heating, and composition evolution in neutron-star merger remnants and collapsars.</p>
+      <p>nuX evolves the zeroth and first angular moments of the neutrino radiation field using an M1 closure on GPUs and is designed to couple with AsterX. It supports multi-species neutrino transport and neutrino–matter source terms for cooling, heating, composition evolution, and radiation stress–energy feedback in neutron-star-merger and core-collapse simulations.</p>
       <a class="simulation-chapter__link" href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">nuX repository <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -199,7 +199,7 @@ nav_order: 1
       </div>
       <div class="simulation-card__copy">
         <h3>Curved-spacetime beam bending</h3>
-        <p>THC and nuX solutions are compared with the reference beam envelope in a curved-spacetime transport test.</p>
+        <p>At t = 20, the THC and nuX radiation-energy-density solutions both track the dashed reference envelope in this curved-spacetime beam-bending test.</p>
       </div>
     </article>
   </div>
@@ -210,7 +210,7 @@ nav_order: 1
     <span>05 · BHClusterX</span>
     <div>
       <h3>BHClusterX — Bowen–York initial-data code for N black holes</h3>
-      <p>BHClusterX constructs Bowen–York initial data for systems of N black holes within the Einstein Toolkit. It provides a foundation for simulations of relativistic black-hole clusters and other many-body strong-gravity configurations.</p>
+      <p>BHClusterX constructs Bowen–York initial data for systems of N black holes within the Einstein Toolkit. It provides a foundation for simulations of relativistic black-hole clusters, including hierarchical mergers in which remnants of earlier coalescences merge again.</p>
       <a class="simulation-chapter__link" href="https://github.com/jaykalinani/BHClusterX" target="_blank" rel="noopener noreferrer">BHClusterX repository <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -226,7 +226,7 @@ nav_order: 1
       </div>
       <div class="simulation-card__copy">
         <h3>A moving black-hole quartet</h3>
-        <p>The conformal factor ψ follows four black holes as their initially separated punctures move inward and form a compact central configuration.</p>
+        <p>The conformal factor ψ visualizes the evolving geometry as four initially separated black holes move inward and merge to form a single, more massive black hole.</p>
       </div>
     </article>
   </div>

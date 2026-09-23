@@ -18,14 +18,14 @@ nav_order: 2
   <article class="project-card project-card--featured">
     <div class="project-meta">Lead developer &amp; maintainer · 2022–present</div>
     <h3>AsterX</h3>
-    <p>A GPU-accelerated GRMHD code for dynamical spacetimes, demonstrated at scale on 4,096 nodes of the Frontier supercomputer.</p>
+    <p>A GPU-accelerated GRMHD code for dynamical spacetimes, benchmarked with weak-scaling tests on 4,096 nodes of the Frontier supercomputer.</p>
     <a href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
   <article class="project-card project-card--featured">
     <div class="project-meta">Lead developer &amp; maintainer · 2024–present</div>
     <h3>nuX</h3>
-    <p>A GPU-accelerated, moment-based neutrino radiation transport code.</p>
+    <p>A GPU-accelerated, moment-based (M1) neutrino radiation transport code.</p>
     <a href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -53,7 +53,7 @@ nav_order: 2
   <article class="project-card">
     <div class="project-meta">Lead developer &amp; maintainer · 2025–present</div>
     <h3>AsterAI</h3>
-    <p>An AI-assisted code review toolkit for numerical relativity.</p>
+    <p>An experimental LLM-assisted code-review toolkit for C/C++ scientific software.</p>
     <a href="https://github.com/jaykalinani/AsterAI" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 </div>

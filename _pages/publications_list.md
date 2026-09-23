@@ -16,7 +16,7 @@
     <div><h2>Jet–environment interaction after delayed collapse in binary neutron star mergers</h2><p><strong>J. V. Kalinani</strong>, R. Ciolfi, M. Campanelli, B. Giacomazzo, A. Pavan, A. Wen &amp; Y. Zlochower</p><p class="venue">The Astrophysical Journal Letters 1000, L35</p><a href="https://doi.org/10.3847/2041-8213/ae402a" target="_blank" rel="noopener noreferrer">Journal article <span aria-hidden="true">↗</span></a></div>
   </article>
   <article>
-    <div class="publication-year">2024</div>
+    <div class="publication-year">2025</div>
     <div><h2>AsterX: a new open-source GPU-accelerated GRMHD code for dynamical spacetimes</h2><p><strong>J. V. Kalinani</strong> et al.</p><p class="venue">Classical and Quantum Gravity 42, 025016</p><a href="https://iopscience.iop.org/article/10.1088/1361-6382/ad9c11" target="_blank" rel="noopener noreferrer">Journal article <span aria-hidden="true">↗</span></a></div>
   </article>
   <article>

@@ -38,7 +38,7 @@ nav_order: 3
   <div class="publication-feature__image">
     <img
       src="{{ '/assets/img/publications/jet-environment-figure-3.webp' | relative_url }}"
-      alt="Meridional views of unboundness, internal energy density, and effective entropy for jet simulation cases A and C"
+      alt="Meridional views of the unboundness diagnostic −uₜ, internal-energy density, and effective specific entropy for jet cases A and C"
       width="961"
       height="905"
       loading="lazy"
@@ -47,9 +47,9 @@ nav_order: 3
     >
   </div>
   <div class="publication-feature__copy">
-    <span class="media-kicker">Featured paper · ApJL 2026</span>
+    <span class="media-kicker">The Astrophysical Journal Letters 1000, L35 · 2026</span>
     <h2>Jet–environment interaction after delayed collapse</h2>
-    <p>Self-consistent merger simulations follow a neutron-star-powered outflow, black-hole formation, and the later jet as it propagates through the surrounding environment.</p>
+    <p>Self-consistent GRMHD merger simulations follow a massive-neutron-star–driven polar outflow, delayed collapse to a black hole, and the subsequent black-hole–disk incipient jet as it propagates through that environment.</p>
     <div class="publication-feature__links">
       <a href="https://doi.org/10.3847/2041-8213/ae402a" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#jet-environment-movie' | relative_url }}">Watch the simulation <span aria-hidden="true">→</span></a>
@@ -72,7 +72,7 @@ nav_order: 3
   <div class="publication-feature__copy">
     <span class="media-kicker">Accepted in PRD · 2026</span>
     <h2>Magnetic eruption and nucleosynthesis in spinning neutron-star mergers</h2>
-    <p>Three GRνMHD simulations connect neutron-star spin, magnetically driven outflows, neutrino reprocessing, and the resulting r-process abundance patterns.</p>
+    <p>Three GRνMHD simulations show how neutron-star spin shapes magnetic amplification and outflows, while neutrino reprocessing influences the ejecta composition and resulting r-process abundance patterns.</p>
     <div class="publication-feature__links">
       <a href="https://arxiv.org/abs/2605.30548" target="_blank" rel="noopener noreferrer">Read the manuscript <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#binary-neutron-star-mergers' | relative_url }}">Explore the research project <span aria-hidden="true">→</span></a>
@@ -95,7 +95,7 @@ nav_order: 3
   <div class="publication-feature__copy">
     <span class="media-kicker">Physical Review D · 2022</span>
     <h2>Implementing a new recovery scheme for primitive variables in Spritz</h2>
-    <p>RePrimAnd is integrated into the Spritz GRMHD code and tested in demanding three-dimensional problems, including highly magnetized neutron stars, black-hole formation, and turbulent accretion disks.</p>
+    <p>RePrimAnd is integrated into the Spritz GRMHD code and validated in demanding three-dimensional tests, including magnetized low-density flows, collapse of a hypermassive neutron star to a black hole, and a Fishbone–Moncrief black-hole accretion torus.</p>
     <div class="publication-feature__links">
       <a href="https://doi.org/10.1103/PhysRevD.105.103031" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="{{ '/software/' | relative_url }}">Explore the software <span aria-hidden="true">→</span></a>

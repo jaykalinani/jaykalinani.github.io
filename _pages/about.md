@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computational astrophysicist · Open-source software developer <br> Postdoctoral researcher · University of Illinois Urbana–Champaign
+subtitle: Postdoctoral researcher · University of Illinois Urbana–Champaign
 
 profile:
   align: right
@@ -62,7 +62,7 @@ social: false
   <a class="home-visual__link" href="{{ '/projects/#research-projects' | relative_url }}" aria-label="Explore research projects and simulation movies">
     <img
       src="{{ '/assets/img/publications/smbh-jet-kinks.webp' | relative_url }}"
-      alt="Three-dimensional circumbinary accretion disk and distorted bipolar jet"
+      alt="Three-dimensional rendering of circumbinary-disk rest-mass density and selected helical magnetic field lines in the bipolar jet"
       width="1800"
       height="1424"
       decoding="async"
@@ -87,12 +87,12 @@ social: false
   <article class="highlight-card">
     <span class="card-index">01</span>
     <h3>Binary neutron star mergers</h3>
-    <p>I follow the hot, magnetized remnant after collision: how turbulence amplifies its fields, how relativistic jets are launched, and how matter cast into space powers luminous kilonovae.</p>
+    <p>I study the hot, magnetized remnant after collision: how turbulence amplifies magnetic fields, the conditions under which relativistic outflows emerge, and how merger ejecta contribute to r-process nucleosynthesis and kilonova emission.</p>
   </article>
   <article class="highlight-card">
     <span class="card-index">02</span>
     <h3>Merging supermassive black hole binaries</h3>
-    <p>I study how gas moves through a changing spacetime, feeds the black holes, and lights up as these titanic systems spiral toward merger.</p>
+    <p>I study how gas responds to the evolving binary spacetime, feeds the individual black holes, and drives variable electromagnetic outflows as these systems approach merger.</p>
   </article>
   <article class="highlight-card">
     <span class="card-index">03</span>

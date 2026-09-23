@@ -55,9 +55,3 @@ Numerical relativity · gravitational waves · magnetohydrodynamics · compact b
 - Best Ph.D. Student Talk, PHAROS Conference, 2019
 - AstroMundus consortium scholarship, 2016–2018
 - Best Master Thesis Award, M.S. Ramaiah University, 2016
-
----
-
-### Contact
-
-[jkalinan@illinois.edu](mailto:jkalinan@illinois.edu) · [GitHub](https://github.com/jaykalinani) · [ORCID](https://orcid.org/0000-0002-2945-1142) · [Google Scholar](https://scholar.google.com/citations?user=wng9EVEAAAAJ&hl=en)
