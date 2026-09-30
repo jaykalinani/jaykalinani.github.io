@@ -2,22 +2,10 @@
 layout: page
 permalink: /projects/
 title: research
-description: Research in numerical relativity, compact-object mergers, relativistic jets, and multimessenger astrophysics.
+description: I study how strong gravity, magnetic fields, and radiation shape compact-object mergers, relativistic jets, and the signals we can observe from them.
 nav: true
 nav_order: 1
 ---
-
-<p class="page-lede">
-  I study how strong gravity, magnetic fields, and radiation shape compact-object mergers,
-  relativistic jets, and the signals we can observe from them.
-</p>
-
-<div class="research-tags research-tags--page" aria-label="Research themes">
-  <span>Numerical relativity</span>
-  <span>General-relativistic MHD</span>
-  <span>Neutrino transport</span>
-  <span>Multimessenger astrophysics</span>
-</div>
 
 <nav class="section-jump" aria-label="Research project navigation">
   <a href="#binary-neutron-star-mergers">01 · Neutron-star mergers</a>
