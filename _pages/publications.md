@@ -70,11 +70,11 @@ nav_order: 3
     >
   </div>
   <div class="publication-feature__copy">
-    <span class="media-kicker">Accepted in PRD · 2026</span>
+    <span class="media-kicker">Physical Review D 114, 083023 · 2026</span>
     <h2>Magnetic eruption and nucleosynthesis in spinning neutron-star mergers</h2>
     <p>Three GRνMHD simulations show how neutron-star spin shapes magnetic amplification and outflows, while neutrino reprocessing influences the ejecta composition and resulting r-process abundance patterns.</p>
     <div class="publication-feature__links">
-      <a href="https://arxiv.org/abs/2605.30548" target="_blank" rel="noopener noreferrer">Read the manuscript <span aria-hidden="true">↗</span></a>
+      <a href="https://doi.org/10.1103/45v3-kbmg" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#binary-neutron-star-mergers' | relative_url }}">Explore the research project <span aria-hidden="true">→</span></a>
     </div>
   </div>

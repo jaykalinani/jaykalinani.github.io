@@ -44,7 +44,7 @@ social: false
 </p>
 
 <div class="home-actions" aria-label="Primary links">
-  <a class="site-button site-button--primary" href="{{ '/projects/' | relative_url }}">Explore my research</a>
+  <a class="site-button" href="{{ '/projects/' | relative_url }}">Explore my research</a>
   <a class="site-button" href="{{ '/publications/' | relative_url }}">View publications</a>
   <a class="site-button" href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20261013' | relative_url }}" target="_blank" rel="noopener noreferrer">Download CV</a>
 </div>

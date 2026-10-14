@@ -9,7 +9,7 @@
   </article>
   <article>
     <div class="publication-year">2026</div>
-    <div><h2>Magnetic eruption and nucleosynthesis in GRνMHD simulations of spinning neutron star mergers</h2><p>A. Wen, <strong>J. V. Kalinani</strong>, M. Chabanov, M. Campanelli, R. Ciolfi &amp; Y. Zlochower</p><p class="venue">Accepted in Physical Review D · arXiv:2605.30548</p><a href="https://arxiv.org/abs/2605.30548" target="_blank" rel="noopener noreferrer">Manuscript <span aria-hidden="true">↗</span></a></div>
+    <div><h2>Magnetic eruption and nucleosynthesis in GRνMHD simulations of spinning neutron star mergers</h2><p>A. Wen, <strong>J. V. Kalinani</strong>, M. Chabanov, M. Campanelli, R. Ciolfi &amp; Y. Zlochower</p><p class="venue">Physical Review D 114, 083023</p><a href="https://doi.org/10.1103/45v3-kbmg" target="_blank" rel="noopener noreferrer">Journal article <span aria-hidden="true">↗</span></a></div>
   </article>
   <article>
     <div class="publication-year">2026</div>
