@@ -1,110 +1,53 @@
 ---
-layout: about
+layout: default
 title: about
 permalink: /
-subtitle: Postdoctoral researcher · University of Illinois Urbana–Champaign
-
-profile:
-  align: right
-  image: prof_pic.webp
-  image_alt: Portrait of Jay Kalinani
-  image_circular: false
-  more_info:
-
-news: false
-latest_posts: false
-selected_papers: false
-social: false
 ---
 
-<p class="home-greeting">Hi, I'm Jay!</p>
-
-<p class="home-lede">
-  I use supercomputers to follow some of the universe’s most extreme cosmic encounters—from
-  the turbulent aftermath of neutron-star collisions to the luminous dance of gas around
-  merging supermassive black holes.
-</p>
-
-<p>
-  I am a postdoctoral researcher in
-  <a href="https://witek-gravity-group.physics.illinois.edu/" target="_blank" rel="noopener noreferrer">Prof. Helvi Witek’s Gravity Group</a>
-  at the University of Illinois Urbana–Champaign. My work sits at the crossroads of astrophysics,
-  numerical relativity, and high-performance computing. I turn the equations of strong gravity,
-  magnetized matter, and radiation into GPU-accelerated simulations built to run at exascale,
-  connecting cosmic collisions to relativistic jets, kilonovae, gamma-ray bursts, and
-  gravitational-wave sources.
-</p>
-
-<p>
-  I earned my Ph.D. in Physics from the University of Padova under the supervision of
-  <a href="https://riccardociolfi.com/" target="_blank" rel="noopener noreferrer">Dr. Riccardo Ciolfi</a>.
-  Before joining Illinois, I held a postdoctoral appointment at the Center for Computational
-  Relativity and Gravitation at Rochester Institute of Technology, working with
-  <a href="https://www.rit.edu/directory/mxcsma-manuela-campanelli" target="_blank" rel="noopener noreferrer">Prof. Manuela Campanelli</a>.
-</p>
-
-<div class="home-actions" aria-label="Primary links">
-  <a class="site-button" href="{{ '/projects/' | relative_url }}">Explore my research</a>
-  <a class="site-button" href="{{ '/publications/' | relative_url }}">View publications</a>
-  <a class="site-button" href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20261013' | relative_url }}" target="_blank" rel="noopener noreferrer">Download CV</a>
-</div>
-
-<div class="research-tags" aria-label="Research interests">
-  <span>Numerical relativity</span>
-  <span>GRMHD</span>
-  <span>Compact binary mergers</span>
-  <span>Neutrino transport</span>
-  <span>Exascale computing</span>
-  <span>Scientific AI</span>
-</div>
-
-<div class="home-visual home-visual--compact">
-  <a class="home-visual__link" href="{{ '/projects/#research-projects' | relative_url }}" aria-label="Explore research projects and simulation movies">
+<section class="home-editorial" aria-labelledby="home-title">
+  <aside class="home-editorial__profile" aria-label="Profile">
     <img
-      src="{{ '/assets/img/publications/smbh-jet-kinks.webp' | relative_url }}"
-      alt="Three-dimensional rendering of circumbinary-disk rest-mass density and selected helical magnetic field lines in the bipolar jet"
-      width="1800"
-      height="1424"
+      class="home-editorial__portrait"
+      src="{{ '/assets/img/prof_pic.webp' | relative_url }}"
+      alt="Portrait of Jay Kalinani"
+      width="800"
+      height="1029"
+      fetchpriority="high"
       decoding="async"
     >
-    <span class="home-visual__scrim" aria-hidden="true"></span>
-    <span class="home-visual__caption">
-      <span>Inside the simulations</span>
-      <strong>Compact objects, magnetic fields, and relativistic jets</strong>
-      <em>View the research atlas <span aria-hidden="true">→</span></em>
-    </span>
-  </a>
-</div>
+    <h2>Jay Kalinani</h2>
+    <p>Postdoctoral researcher</p>
+    <a class="home-editorial__affiliation" href="https://illinois.edu/" target="_blank" rel="noopener noreferrer">University of Illinois Urbana–Champaign</a>
+    <nav class="home-editorial__profiles" aria-label="Professional profiles">
+      <a href="mailto:jkalinan@illinois.edu">Email</a>
+      <a href="https://github.com/jaykalinani" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://orcid.org/0000-0002-2945-1142" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <a href="https://scholar.google.com/citations?user=wng9EVEAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+      <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Kalinani%2C%20Jay%20V%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0" target="_blank" rel="noopener noreferrer">NASA ADS</a>
+    </nav>
+  </aside>
 
-<h2 class="section-heading">Research at a glance</h2>
+  <div class="home-editorial__copy">
+    <h1 id="home-title">Hi, I’m Jay!</h1>
+    <p class="home-editorial__lede">
+      I’m a postdoctoral researcher in
+      <a href="https://witek-gravity-group.physics.illinois.edu/" target="_blank" rel="noopener noreferrer">Prof. Helvi Witek’s Gravity Group</a>
+      at the University of Illinois Urbana–Champaign. I use GPU-accelerated simulations to study
+      binary neutron-star mergers and merging supermassive black-hole binaries—asking how strong
+      gravity, magnetic fields, and radiation shape relativistic jets, kilonovae, gravitational
+      waves, and other observable signals.
+    </p>
+    <p>
+      I also develop open-source tools for exascale simulations, including
+      <a href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">AsterX</a>,
+      a GPU-accelerated GRMHD code, and
+      <a href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">nuX</a>,
+      a neutrino-transport code. I earned my Ph.D. in Physics at the University of Padova with
+      <a href="https://riccardociolfi.com/" target="_blank" rel="noopener noreferrer">Dr. Riccardo Ciolfi</a>
+      and later held a postdoctoral appointment at RIT’s Center for Computational Relativity and
+      Gravitation with
+      <a href="https://www.rit.edu/directory/mxcsma-manuela-campanelli" target="_blank" rel="noopener noreferrer">Prof. Manuela Campanelli</a>.
+    </p>
 
-<p class="section-intro">
-  Two cosmic laboratories anchor my research, supported by the GPU software that makes their
-  simulations possible at scale.
-</p>
-
-<div class="highlight-grid">
-  <article class="highlight-card">
-    <span class="card-index">01</span>
-    <h3>Binary neutron star mergers</h3>
-    <p>I study the hot, magnetized remnant after collision: how turbulence amplifies magnetic fields, the conditions under which relativistic outflows emerge, and how merger ejecta contribute to r-process nucleosynthesis and kilonova emission.</p>
-  </article>
-  <article class="highlight-card">
-    <span class="card-index">02</span>
-    <h3>Merging supermassive black hole binaries</h3>
-    <p>I study how gas responds to the evolving binary spacetime, feeds the individual black holes, and drives variable electromagnetic outflows as these systems approach merger.</p>
-  </article>
-  <article class="highlight-card">
-    <span class="card-index">03</span>
-    <h3>Codes for the exascale era</h3>
-    <p>To make these calculations possible, I lead <a href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">AsterX</a>, a GPU-accelerated GRMHD code, and develop <a href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">nuX</a> for GPU-accelerated M1 neutrino transport.</p>
-  </article>
-</div>
-
-<div class="contact-row" aria-label="Contact links">
-  <a href="mailto:jkalinan@illinois.edu">Email</a>
-  <a href="https://github.com/jaykalinani" target="_blank" rel="noopener noreferrer">GitHub</a>
-  <a href="https://orcid.org/0000-0002-2945-1142" target="_blank" rel="noopener noreferrer">ORCID</a>
-  <a href="https://scholar.google.com/citations?user=wng9EVEAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-  <a href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Kalinani%2C%20Jay%20V%22&amp;sort=date%20desc%2C%20bibcode%20desc&amp;p_=0" target="_blank" rel="noopener noreferrer">NASA ADS</a>
-</div>
+  </div>
+</section>
