@@ -94,13 +94,35 @@
               </li>
               {%- endif %}
               {%- if site.enable_darkmode %}
-
-              <!-- Toogle theme mode -->
-              <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
+              <!-- Display preferences -->
+              <li class="nav-item dropdown theme-selector">
+                <button
+                  class="nav-link theme-selector__toggle"
+                  id="theme-menu-toggle"
+                  type="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="Display preferences"
+                  title="Display preferences"
+                >
+                  <i class="fas fa-desktop" data-theme-icon aria-hidden="true"></i>
+                  <span class="sr-only">Display preferences</span>
                 </button>
+                <div class="dropdown-menu dropdown-menu-right theme-selector__menu" aria-labelledby="theme-menu-toggle" role="menu">
+                  <button class="dropdown-item theme-selector__option" type="button" data-theme-preference="light" role="menuitemradio" aria-checked="false">
+                    <span><i class="fas fa-sun" aria-hidden="true"></i>Light</span>
+                    <i class="fas fa-check theme-selector__check" aria-hidden="true"></i>
+                  </button>
+                  <button class="dropdown-item theme-selector__option" type="button" data-theme-preference="dark" role="menuitemradio" aria-checked="false">
+                    <span><i class="fas fa-moon" aria-hidden="true"></i>Dark</span>
+                    <i class="fas fa-check theme-selector__check" aria-hidden="true"></i>
+                  </button>
+                  <button class="dropdown-item theme-selector__option" type="button" data-theme-preference="system" role="menuitemradio" aria-checked="false">
+                    <span><i class="fas fa-desktop" aria-hidden="true"></i>System</span>
+                    <i class="fas fa-check theme-selector__check" aria-hidden="true"></i>
+                  </button>
+                </div>
               </li>
               {%- endif %}
             </ul>
