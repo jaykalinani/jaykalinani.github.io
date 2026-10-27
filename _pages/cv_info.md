@@ -1,5 +1,5 @@
 <div class="cv-intro">
-  <p class="eyebrow">Updated September 2026</p>
+  <p class="eyebrow">Updated October 2026</p>
   <p class="page-lede">Postdoctoral researcher at the University of Illinois Urbana–Champaign working across numerical relativity, multimessenger astrophysics, and open-source high-performance computing.</p>
 </div>
 
@@ -31,9 +31,9 @@ Numerical relativity · gravitational waves · magnetohydrodynamics · compact b
 ### Research, software &amp; computing
 
 - Lead developer and maintainer of **AsterX**, **nuX**, **AsterAI**, **BHClusterX**, **FlowTracerX**, and **ParticleAHFinderX**; developer or contributor to **Spritz**, **SpacetimeX**, **CarpetX**, and **RePrimAnd**.
-- Principal investigator or co-investigator on **27 computational grants**, totaling more than **50.4 million CPU-hours** and **1 million GPU-hours**; PI on 10 of those awards.
+- Principal investigator or co-investigator on **29 computational allocations**, totaling more than **50.4 million CPU-hours** and **1 million GPU-hours**; PI on 11 of those awards.
 - Co-investigator on the €131K MAECI JetOut collaboration on short gamma-ray burst jets from binary neutron star mergers.
-- **18 journal articles**, more than **550 citations**, and h-index **12** as reported by NASA ADS in the September 2026 CV.
+- **18 papers**, **731 citations**, and h-index **13** as reported by NASA ADS in October 2026.
 
 ---
 

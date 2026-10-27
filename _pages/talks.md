@@ -14,7 +14,7 @@ nav_order: 4
 
 <div class="metric-grid talk-metrics" aria-label="Talk totals from current CV">
   <div class="metric"><strong>23</strong><span>invited talks &amp; tutorials</span></div>
-  <div class="metric"><strong>22</strong><span>contributed talks &amp; posters</span></div>
+  <div class="metric"><strong>23</strong><span>contributed talks &amp; posters</span></div>
 </div>
 <nav class="section-jump" aria-label="Talk page sections">
   <a href="#invited-talks">Invited talks</a>
@@ -45,7 +45,7 @@ nav_order: 4
   <article><time datetime="2024-04">Apr 2024</time><div><h2>End-to-end modelling of jets from binary neutron star mergers</h2><p>APS April Meeting · Sacramento, USA</p></div></article>
 </div>
 
-<p class="page-cta">The complete chronological record is available in my <a href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20261013' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>.</p>
+<p class="page-cta">The complete chronological record is available in my <a href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20261027' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>.</p>
 
 <h2 class="section-heading" id="teaching-community">Teaching, mentoring &amp; community</h2>
 

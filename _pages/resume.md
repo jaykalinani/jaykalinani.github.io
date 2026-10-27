@@ -3,7 +3,7 @@ layout: cv
 permalink: /resume/
 title: resume
 nav: false
-cv_pdf: Kalinani_CV.pdf?v=20261013
+cv_pdf: Kalinani_CV.pdf?v=20261027
 description: Current curriculum vitae and professional summary.
 
 profiles:

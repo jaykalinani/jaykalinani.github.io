@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 6
-cv_pdf: Kalinani_CV.pdf?v=20261013
+cv_pdf: Kalinani_CV.pdf?v=20261027
 
 profiles:
   - align: left
