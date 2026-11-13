@@ -7,8 +7,6 @@ nav: true
 nav_order: 1
 ---
 
-<p class="research-note">Five connected projects, from compact-object mergers to the software that makes their simulations possible. The videos have no audio.</p>
-
 <section class="simulation-chapter" id="binary-neutron-star-mergers">
   <header class="simulation-chapter__heading">
     <h2>Binary neutron star mergers</h2>

@@ -1592,19 +1592,12 @@ body.sticky-bottom-footer {
 }
 
 .section-heading {
-  gap: 1rem;
+  display: block;
 
   &::after {
-    background: var(--global-divider-color);
+    display: none;
+    content: none;
   }
-}
-
-.research-note {
-  max-width: 42rem;
-  margin: 0 0 2.75rem;
-  color: var(--global-text-color-light);
-  font-size: 0.9rem;
-  line-height: 1.6;
 }
 
 .simulation-chapter {
@@ -1613,7 +1606,7 @@ body.sticky-bottom-footer {
 
 .simulation-chapter + .simulation-chapter {
   padding-top: 3.5rem;
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
 }
 
 .simulation-chapter__heading {
@@ -1725,7 +1718,7 @@ body.sticky-bottom-footer {
 }
 
 .software-list {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
 }
 
 .software-entry {
@@ -1734,7 +1727,7 @@ body.sticky-bottom-footer {
   gap: 1.25rem;
   align-items: start;
   padding: 1.35rem 0;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0;
 
   header,
   p {
@@ -1777,7 +1770,7 @@ body.sticky-bottom-footer {
   margin: 0 0 0.5rem;
   padding: 0 0 1.5rem;
   background: transparent;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0;
   border-left: 0;
   border-radius: 0;
 
@@ -1797,7 +1790,6 @@ body.sticky-bottom-footer {
   overflow: visible;
   background: transparent;
   border: 0;
-  border-bottom: 1px solid var(--global-divider-color);
   border-radius: 0;
   box-shadow: none;
 }
@@ -1835,10 +1827,12 @@ body.sticky-bottom-footer {
 
 .talk-summary {
   margin: 0 0 2.5rem;
-  padding-bottom: 1rem;
   color: var(--global-text-color-light);
-  border-bottom: 1px solid var(--global-divider-color);
   font-size: 0.9rem;
+}
+
+.talk-list article {
+  border-top: 0;
 }
 
 .talk-list--invited time::after,
@@ -1848,12 +1842,12 @@ body.sticky-bottom-footer {
 }
 
 .service-list {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
 
   p {
     margin: 0;
     padding: 0.9rem 0;
-    border-bottom: 1px solid var(--global-divider-color);
+    border-bottom: 0;
     font-size: 0.92rem;
     line-height: 1.6;
   }
@@ -1865,7 +1859,7 @@ body.sticky-bottom-footer {
 
 .personal-section + .personal-section {
   padding-top: 3.25rem;
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
 }
 
 .personal-section__heading {
@@ -1960,6 +1954,11 @@ body.sticky-bottom-footer {
     background: transparent;
     text-decoration: underline;
   }
+}
+
+.publication-list article,
+.page-cta {
+  border-top: 0;
 }
 
 @media (max-width: 767.98px) {
