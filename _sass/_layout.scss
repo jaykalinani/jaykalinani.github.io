@@ -1606,7 +1606,7 @@ body.sticky-bottom-footer {
 
 .simulation-chapter + .simulation-chapter {
   padding-top: 3.5rem;
-  border-top: 0;
+  border-top: 1px solid var(--global-divider-color);
 }
 
 .simulation-chapter__heading {
@@ -1825,6 +1825,10 @@ body.sticky-bottom-footer {
   margin-top: 1rem;
 }
 
+.publication-feature + .publication-feature {
+  border-top: 1px solid var(--global-divider-color);
+}
+
 .talk-summary {
   margin: 0 0 2.5rem;
   color: var(--global-text-color-light);
@@ -1859,7 +1863,7 @@ body.sticky-bottom-footer {
 
 .personal-section + .personal-section {
   padding-top: 3.25rem;
-  border-top: 0;
+  border-top: 1px solid var(--global-divider-color);
 }
 
 .personal-section__heading {
@@ -1959,6 +1963,13 @@ body.sticky-bottom-footer {
 .publication-list article,
 .page-cta {
   border-top: 0;
+}
+
+.software-list + .section-heading,
+.talk-list + .section-heading,
+.page-cta + .section-heading {
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
 }
 
 @media (max-width: 767.98px) {
