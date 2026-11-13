@@ -38,11 +38,11 @@ permalink: /
       waves, and other observable signals.
     </p>
     <p>
-      I also develop open-source tools for exascale simulations, including
+      I also develop open-source tools for large-scale simulations, including
       <a href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">AsterX</a>,
-      a GPU-accelerated GRMHD code, and
+      which models magnetized matter and spacetime, and
       <a href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">nuX</a>,
-      a neutrino-transport code. I earned my Ph.D. in Physics at the University of Padova with
+      which follows neutrinos through matter. I earned my Ph.D. in Physics at the University of Padova with
       <a href="https://riccardociolfi.com/" target="_blank" rel="noopener noreferrer">Dr. Riccardo Ciolfi</a>
       and later held a postdoctoral appointment at RIT’s Center for Computational Relativity and
       Gravitation with

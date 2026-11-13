@@ -8,5 +8,5 @@
 - Your public CV is at `assets/pdf/Kalinani_CV.pdf`.
 - Research software is presented in `_pages/software.md`; repository metadata is also stored in `_data/repositories.yml`.
 - Web-ready simulation movies live in `assets/video/simulations/`; their posters and publication figures live in `assets/img/publications/`.
-- To add a personal photo, put an optimized image in `assets/img/personal/`, then add its path, category, alt text, and caption to `_data/personal_gallery.yml`. Use `animal-care`, `travel`, or `chess` as the category; the page updates automatically.
+- Personal-page text and photo order are managed in `_pages/personal.md`; optimized research-group and chess images live in `assets/img/personal/`.
 - The inherited template posts are intentionally unpublished until they are replaced with Jay-authored material.

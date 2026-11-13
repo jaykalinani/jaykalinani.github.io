@@ -8,19 +8,11 @@ nav_order: 4
 ---
 
 <p class="page-lede">
-  I share work on relativistic astrophysics, scientific software, and high-performance
+  I share work on extreme astrophysical systems, scientific software, and large-scale
   computing through seminars, conference talks, tutorials, and posters.
 </p>
 
-<div class="metric-grid talk-metrics" aria-label="Talk totals from current CV">
-  <div class="metric"><strong>23</strong><span>invited talks &amp; tutorials</span></div>
-  <div class="metric"><strong>23</strong><span>contributed talks &amp; posters</span></div>
-</div>
-<nav class="section-jump" aria-label="Talk page sections">
-  <a href="#invited-talks">Invited talks</a>
-  <a href="#contributed-talks">Contributed presentations</a>
-  <a href="#teaching-community">Teaching &amp; community</a>
-</nav>
+<p class="talk-summary"><strong>23</strong> invited talks and tutorials <span aria-hidden="true">·</span> <strong>23</strong> contributed presentations</p>
 
 <h2 class="section-heading" id="invited-talks">Recent invited talks</h2>
 
@@ -49,9 +41,9 @@ nav_order: 4
 
 <h2 class="section-heading" id="teaching-community">Teaching, mentoring &amp; community</h2>
 
-<div class="service-grid">
-  <article><h3>Teaching</h3><p>Guest lectures in Classical Mechanics at UIUC and on GRMHD and numerical methods at RIT, plus CarpetX and AsterX tutorials at Einstein Toolkit workshops.</p></article>
-  <article><h3>Mentoring</h3><p>Co-mentoring graduate researchers Allen Wen, Amara Nusbickel, Maxwell Rizzo, Noora Ghadiri, and Freddy Pardoe.</p></article>
-  <article><h3>Leadership</h3><p>Local and scientific organizer for the 2026 North American Einstein Toolkit Workshop and School at UIUC.</p></article>
-  <article><h3>Outreach</h3><p>Volunteer with Skype A Scientist since 2020, bringing astronomy sessions to classrooms and families.</p></article>
+<div class="service-list">
+  <p><strong>Teaching.</strong> Guest lectures in Classical Mechanics at UIUC and in GRMHD and numerical methods at RIT, plus CarpetX and AsterX tutorials at Einstein Toolkit workshops.</p>
+  <p><strong>Mentoring.</strong> Co-mentoring graduate researchers Allen Wen, Amara Nusbickel, Maxwell Rizzo, Noora Ghadiri, and Freddy Pardoe.</p>
+  <p><strong>Leadership.</strong> Local and scientific organizer for the 2026 North American Einstein Toolkit Workshop and School at UIUC.</p>
+  <p><strong>Outreach.</strong> Volunteer with Skype A Scientist since 2020, sharing astronomy with classrooms and families.</p>
 </div>

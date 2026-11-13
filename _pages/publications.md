@@ -2,21 +2,21 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected journal articles and preprints in numerical relativity, relativistic astrophysics, and scientific computing.
+description: Selected papers on compact-object mergers, relativistic jets, and scientific software.
 nav: true
 nav_order: 3
 ---
 
-<div class="publication-summary">
+<p class="publication-summary">
   <strong>18</strong> papers · <strong>731</strong> citations · h-index <strong>13</strong>
   <span>based on NASA ADS, October 2026.</span>
-</div>
+</p>
 
-<article class="publication-feature media-breakout">
+<article class="publication-feature">
   <div class="publication-feature__image">
     <img
       src="{{ '/assets/img/publications/figure-10-smbh-jet-variability.webp' | relative_url }}"
-      alt="Four three-dimensional renderings of gas density and magnetic field lines around a small mass-ratio supermassive black-hole binary at successive times"
+      alt="Four three-dimensional views of gas density and magnetic-field lines around a supermassive black-hole binary, with black spheres marking the horizons"
       width="2176"
       height="2176"
       decoding="async"
@@ -26,7 +26,7 @@ nav_order: 3
   <div class="publication-feature__copy">
     <span class="media-kicker">Submitted to ApJL · 2026</span>
     <h2>Jet variability in small mass ratio supermassive black hole binaries</h2>
-    <p>Three-dimensional GRMHD simulations show how a precessing, unequal-mass binary perturbs its circumbinary disk and imprints orbital-timescale variability on large-scale relativistic jets.</p>
+    <p>Three-dimensional simulations of a precessing binary with a 1:7 mass ratio connect repeated passages of the smaller black hole through the inner disk to recurring disturbances that travel along the jet.</p>
     <div class="publication-feature__links">
       <a href="https://arxiv.org/abs/2609.24837" target="_blank" rel="noopener noreferrer">Read the preprint <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#supermassive-black-hole-binaries' | relative_url }}">Explore the research project <span aria-hidden="true">→</span></a>
@@ -34,7 +34,7 @@ nav_order: 3
   </div>
 </article>
 
-<article class="publication-feature publication-feature--reverse media-breakout">
+<article class="publication-feature">
   <div class="publication-feature__image">
     <img
       src="{{ '/assets/img/publications/jet-environment-figure-3.webp' | relative_url }}"
@@ -49,56 +49,10 @@ nav_order: 3
   <div class="publication-feature__copy">
     <span class="media-kicker">The Astrophysical Journal Letters 1000, L35 · 2026</span>
     <h2>Jet–environment interaction after delayed collapse</h2>
-    <p>Self-consistent GRMHD merger simulations follow a massive-neutron-star–driven polar outflow, delayed collapse to a black hole, and the subsequent black-hole–disk incipient jet as it propagates through that environment.</p>
+    <p>Simulations show how the lifetime of the massive neutron-star remnant controls how much matter fills the polar region and, in turn, how easily the black-hole–driven jet can escape.</p>
     <div class="publication-feature__links">
       <a href="https://doi.org/10.3847/2041-8213/ae402a" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#jet-environment-movie' | relative_url }}">Watch the simulation <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</article>
-
-<article class="publication-feature media-breakout">
-  <div class="publication-feature__image publication-feature__image--portrait">
-    <img
-      src="{{ '/assets/img/publications/figure-20-nucleosynthesis.webp' | relative_url }}"
-      alt="Nucleosynthesis abundance patterns for three neutron-star spin configurations compared with solar abundances"
-      width="761"
-      height="1011"
-      loading="lazy"
-      decoding="async"
-      data-zoomable
-    >
-  </div>
-  <div class="publication-feature__copy">
-    <span class="media-kicker">Physical Review D 114, 083023 · 2026</span>
-    <h2>Magnetic eruption and nucleosynthesis in spinning neutron-star mergers</h2>
-    <p>Three GRνMHD simulations show how neutron-star spin shapes magnetic amplification and outflows, while neutrino reprocessing influences the ejecta composition and resulting r-process abundance patterns.</p>
-    <div class="publication-feature__links">
-      <a href="https://doi.org/10.1103/45v3-kbmg" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
-      <a href="{{ '/projects/#binary-neutron-star-mergers' | relative_url }}">Explore the research project <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</article>
-
-<article class="publication-feature publication-feature--reverse media-breakout">
-  <div class="publication-feature__image">
-    <img
-      src="{{ '/assets/img/publications/figure-9-spritz-magnetic-field.webp' | relative_url }}"
-      alt="Three-dimensional magnetic field lines around a rotating neutron star at 19.7 milliseconds, colored by magnetic field strength"
-      width="2520"
-      height="2151"
-      loading="lazy"
-      decoding="async"
-      data-zoomable
-    >
-  </div>
-  <div class="publication-feature__copy">
-    <span class="media-kicker">Physical Review D · 2022</span>
-    <h2>Implementing a new recovery scheme for primitive variables in Spritz</h2>
-    <p>RePrimAnd is integrated into the Spritz GRMHD code and validated in demanding three-dimensional tests, including magnetized low-density flows, collapse of a hypermassive neutron star to a black hole, and a Fishbone–Moncrief black-hole accretion torus.</p>
-    <div class="publication-feature__links">
-      <a href="https://doi.org/10.1103/PhysRevD.105.103031" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
-      <a href="{{ '/software/' | relative_url }}">Explore the software <span aria-hidden="true">→</span></a>
     </div>
   </div>
 </article>
