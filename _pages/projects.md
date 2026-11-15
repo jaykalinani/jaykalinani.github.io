@@ -15,7 +15,7 @@ nav_order: 1
 
   <figure class="simulation-card simulation-card--wide" id="jet-environment-movie">
     <div class="video-shell video-shell--paper">
-      <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-jet-environment-poster.webp' | relative_url }}" aria-label="Case C jet-environment interaction after a binary-neutron-star merger">
+      <video controls playsinline preload="metadata" width="1280" height="854" poster="{{ '/assets/img/publications/video-jet-environment-poster.webp' | relative_url }}" aria-label="Case C jet-environment interaction after a binary-neutron-star merger">
         <source src="{{ '/assets/video/simulations/jet-environment-case-c.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support embedded video.
       </video>
@@ -38,7 +38,7 @@ nav_order: 1
 
   <figure class="simulation-card simulation-card--wide">
     <div class="video-shell video-shell--wide">
-      <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-smbh-rho-poster.webp' | relative_url }}" aria-label="Density evolution in the orbital and meridional planes of a supermassive black-hole binary simulation">
+      <video controls playsinline preload="metadata" width="1280" height="568" poster="{{ '/assets/img/publications/video-smbh-rho-poster.webp' | relative_url }}" aria-label="Density evolution in the orbital and meridional planes of a supermassive black-hole binary simulation">
         <source src="{{ '/assets/video/simulations/smbh-density-slices.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support embedded video.
       </video>
@@ -55,7 +55,7 @@ nav_order: 1
     <div class="simulation-grid simulation-grid--secondary">
       <figure class="simulation-card">
         <div class="video-shell video-shell--landscape">
-          <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-smbh-jet-wide-poster.webp' | relative_url }}" aria-label="Three-dimensional circumbinary disk with magnetic field lines tracing the jet">
+          <video controls playsinline preload="metadata" width="1200" height="938" poster="{{ '/assets/img/publications/video-smbh-jet-wide-poster.webp' | relative_url }}" aria-label="Three-dimensional circumbinary disk with magnetic field lines tracing the jet">
             <source src="{{ '/assets/video/simulations/smbh-jet-field-lines-wide.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support embedded video.
           </video>
@@ -69,7 +69,7 @@ nav_order: 1
 
       <figure class="simulation-card">
         <div class="video-shell video-shell--square">
-          <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-smbh-jet-square-poster.webp' | relative_url }}" aria-label="Close three-dimensional view of the supermassive black-hole binary and its variable jet">
+          <video controls playsinline preload="metadata" width="960" height="960" poster="{{ '/assets/img/publications/video-smbh-jet-square-poster.webp' | relative_url }}" aria-label="Close three-dimensional view of the supermassive black-hole binary and its variable jet">
             <source src="{{ '/assets/video/simulations/smbh-jet-variability.mp4' | relative_url }}" type="video/mp4">
             Your browser does not support embedded video.
           </video>
@@ -93,7 +93,7 @@ nav_order: 1
 
   <figure class="simulation-card simulation-card--medium">
     <div class="video-shell video-shell--square">
-      <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-flowtracerx-poster.webp' | relative_url }}" aria-label="FlowTracerX density and tracer-particle simulation">
+      <video controls playsinline preload="metadata" width="1200" height="1134" poster="{{ '/assets/img/publications/video-flowtracerx-poster.webp' | relative_url }}" aria-label="FlowTracerX density and tracer-particle simulation">
         <source src="{{ '/assets/video/simulations/flowtracerx-density-particles.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support embedded video.
       </video>
@@ -109,7 +109,7 @@ nav_order: 1
     <summary>More simulations</summary>
     <figure class="simulation-card simulation-card--medium">
       <div class="video-shell video-shell--square">
-        <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-bns-3d-poster.webp' | relative_url }}" aria-label="Three-dimensional magnetic-field evolution in an AsterX neutron-star merger remnant">
+        <video controls playsinline preload="metadata" width="1080" height="1080" poster="{{ '/assets/img/publications/video-bns-3d-poster.webp' | relative_url }}" aria-label="Three-dimensional magnetic-field evolution in an AsterX neutron-star merger remnant">
           <source src="{{ '/assets/video/simulations/asterx-bns-3d.mp4' | relative_url }}" type="video/mp4">
           Your browser does not support embedded video.
         </video>
@@ -159,7 +159,7 @@ nav_order: 1
 
   <figure class="simulation-card simulation-card--wide">
     <div class="video-shell video-shell--landscape">
-      <video controls playsinline preload="metadata" poster="{{ '/assets/img/publications/video-bhclusterx-quartet-poster.webp' | relative_url }}" aria-label="Four-black-hole BHClusterX evolution of the conformal factor in the orbital plane">
+      <video controls playsinline preload="metadata" width="1600" height="1252" poster="{{ '/assets/img/publications/video-bhclusterx-quartet-poster.webp' | relative_url }}" aria-label="Four-black-hole BHClusterX evolution of the conformal factor in the orbital plane">
         <source src="{{ '/assets/video/simulations/bhclusterx-black-hole-quartet.mp4' | relative_url }}" type="video/mp4">
         Your browser does not support embedded video.
       </video>

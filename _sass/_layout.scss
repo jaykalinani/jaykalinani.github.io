@@ -1659,8 +1659,28 @@ body.sticky-bottom-footer {
   margin-inline: auto;
 }
 
+.video-shell,
+.video-shell--wide,
+.video-shell--paper,
+.video-shell--square,
+.video-shell--portrait,
+.video-shell--landscape,
+.video-shell--panorama {
+  aspect-ratio: auto;
+}
+
 .video-shell {
-  border-radius: 0.12rem;
+  overflow: visible;
+  background: transparent;
+  border-radius: 0;
+
+  video,
+  > img {
+    height: auto;
+    object-fit: contain;
+    background: transparent;
+    border: 0;
+  }
 }
 
 .simulation-card__copy {
