@@ -50,23 +50,8 @@ nav_order: 1
     </figcaption>
   </figure>
 
-  <details class="simulation-more">
-    <summary>More simulations</summary>
+  <div class="simulation-more">
     <div class="simulation-grid simulation-grid--secondary">
-      <figure class="simulation-card">
-        <div class="video-shell video-shell--landscape">
-          <video controls playsinline preload="metadata" width="1200" height="938" poster="{{ '/assets/img/publications/video-smbh-jet-wide-poster.webp' | relative_url }}" aria-label="Three-dimensional circumbinary disk with magnetic field lines tracing the jet">
-            <source src="{{ '/assets/video/simulations/smbh-jet-field-lines-wide.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support embedded video.
-          </video>
-        </div>
-        <figcaption class="simulation-card__copy">
-          <span class="media-meta">Three-dimensional jet view</span>
-          <h3>Global jet structure</h3>
-          <p>Density surfaces and magnetic-field lines show disturbances launched near the binary travelling into the large-scale jet.</p>
-        </figcaption>
-      </figure>
-
       <figure class="simulation-card">
         <div class="video-shell video-shell--square">
           <video controls playsinline preload="metadata" width="960" height="960" poster="{{ '/assets/img/publications/video-smbh-jet-square-poster.webp' | relative_url }}" aria-label="Close three-dimensional view of the supermassive black-hole binary and its variable jet">
@@ -80,8 +65,22 @@ nav_order: 1
           <p>As the smaller black hole crosses the inner disk, it pushes magnetized gas toward the jet and perturbs the outflow.</p>
         </figcaption>
       </figure>
+
+      <figure class="simulation-card">
+        <div class="video-shell video-shell--landscape">
+          <video controls playsinline preload="metadata" width="1200" height="938" poster="{{ '/assets/img/publications/video-smbh-jet-wide-poster.webp' | relative_url }}" aria-label="Three-dimensional circumbinary disk with magnetic field lines tracing the jet">
+            <source src="{{ '/assets/video/simulations/smbh-jet-field-lines-wide.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support embedded video.
+          </video>
+        </div>
+        <figcaption class="simulation-card__copy">
+          <span class="media-meta">Three-dimensional jet view</span>
+          <h3>Global jet structure</h3>
+          <p>Density surfaces and magnetic-field lines show disturbances launched near the binary travelling into the large-scale jet.</p>
+        </figcaption>
+      </figure>
     </div>
-  </details>
+  </div>
 </section>
 
 <section class="simulation-chapter" id="asterx">
@@ -105,8 +104,7 @@ nav_order: 1
     </figcaption>
   </figure>
 
-  <details class="simulation-more">
-    <summary>More simulations</summary>
+  <div class="simulation-more">
     <figure class="simulation-card simulation-card--medium">
       <div class="video-shell video-shell--square">
         <video controls playsinline preload="metadata" width="1080" height="1080" poster="{{ '/assets/img/publications/video-bns-3d-poster.webp' | relative_url }}" aria-label="Three-dimensional magnetic-field evolution in an AsterX neutron-star merger remnant">
@@ -120,7 +118,7 @@ nav_order: 1
         <p>Density surfaces and magnetic-field lines reveal the turbulent, magnetized remnant formed after the stars merge.</p>
       </figcaption>
     </figure>
-  </details>
+  </div>
 </section>
 
 <section class="simulation-chapter" id="nux">
