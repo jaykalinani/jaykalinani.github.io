@@ -36,10 +36,10 @@ nav_order: 2
   <article class="software-entry">
     <header>
       <h3>BHClusterX</h3>
-      <p>Lead developer &amp; maintainer · 2026–present</p>
+      <p>Lead developer &amp; maintainer · 2026–present · Private repository</p>
     </header>
     <p>Software that prepares the initial conditions for simulations of multiple black holes.</p>
-    <a href="https://github.com/jaykalinani/BHClusterX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
+    <a href="mailto:{{ site.email }}?subject=BHClusterX%20repository%20access">Request access</a>
   </article>
 
   <article class="software-entry">
@@ -54,10 +54,10 @@ nav_order: 2
   <article class="software-entry">
     <header>
       <h3>ParticleAHFinderX</h3>
-      <p>Lead developer &amp; maintainer · 2026–present</p>
+      <p>Lead developer &amp; maintainer · 2026–present · Private repository</p>
     </header>
     <p>GPU-accelerated software for locating black-hole boundaries in simulations.</p>
-    <a href="https://github.com/jaykalinani/ParticleAHFinderX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
+    <a href="mailto:{{ site.email }}?subject=ParticleAHFinderX%20repository%20access">Request access</a>
   </article>
 
   <article class="software-entry">
