@@ -1,11 +1,11 @@
 <div class="cv-intro">
   <p class="eyebrow">Updated October 2026</p>
-  <p class="page-lede">Postdoctoral researcher at the University of Illinois Urbana–Champaign working across numerical relativity, multimessenger astrophysics, and open-source high-performance computing.</p>
+  <p class="page-lede">Postdoctoral researcher at the University of Illinois Urbana–Champaign working across numerical relativity, multimessenger astrophysics, and open-source software for high-performance computing.</p>
 </div>
 
 ### Research interests
 
-Numerical relativity · gravitational waves · magnetohydrodynamics · compact binary mergers · multimessenger astrophysics · relativistic jets · radiation and neutrino transport · r-process nucleosynthesis · scientific applications of large language models
+Numerical relativity · gravitational waves · general-relativistic magnetohydrodynamics · compact-object mergers · multimessenger astrophysics · relativistic jets · neutrino radiation transport · r-process nucleosynthesis · large language models for scientific software
 
 ---
 

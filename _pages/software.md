@@ -2,14 +2,15 @@
 layout: page
 permalink: /software/
 title: software
-description: Open-source software for simulating extreme astrophysical systems.
+description: Research software for numerical relativity, general-relativistic magnetohydrodynamics, and neutrino transport.
 nav: true
 nav_order: 2
 ---
 
 <p class="page-lede">
-  I build open-source, GPU-accelerated software for simulations of black holes,
-  neutron stars, magnetic fields, and neutrinos. Most projects are part of the Einstein Toolkit.
+  I develop GPU-accelerated research software for numerical relativity,
+  general-relativistic magnetohydrodynamics (GRMHD), and neutrino transport.
+  Many of these projects are open source and part of the Einstein Toolkit.
 </p>
 
 <h2 class="section-heading">Lead developer &amp; maintainer</h2>
@@ -20,7 +21,7 @@ nav_order: 2
       <h3>AsterX</h3>
       <p>Lead developer &amp; maintainer · 2022–present</p>
     </header>
-    <p>GPU-accelerated software that evolves magnetized matter and spacetime together, tested on 4,096 nodes of the Frontier supercomputer.</p>
+    <p>A GPU-accelerated GRMHD code for evolving magnetized relativistic fluids in dynamical spacetimes, demonstrated on 4,096 nodes of the Frontier supercomputer.</p>
     <a href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -29,7 +30,7 @@ nav_order: 2
       <h3>nuX</h3>
       <p>Lead developer &amp; maintainer · 2024–present</p>
     </header>
-    <p>GPU-accelerated software that follows neutrinos as they move through and exchange energy with matter.</p>
+    <p>A GPU-accelerated neutrino-transport code for dynamical spacetimes, including two-moment (M1) and ray-by-ray M0 schemes coupled to AsterX.</p>
     <a href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -38,7 +39,7 @@ nav_order: 2
       <h3>BHClusterX</h3>
       <p>Lead developer &amp; maintainer · 2026–present · Private repository</p>
     </header>
-    <p>Software that prepares the initial conditions for simulations of multiple black holes.</p>
+    <p>A code for constructing Bowen–York puncture initial data for systems of multiple black holes.</p>
     <a href="mailto:{{ site.email }}?subject=BHClusterX%20repository%20access">Request access</a>
   </article>
 
@@ -47,7 +48,7 @@ nav_order: 2
       <h3>FlowTracerX</h3>
       <p>Lead developer &amp; maintainer · 2026–present</p>
     </header>
-    <p>A GPU-accelerated particle tracer for following fluid motion in AsterX simulations.</p>
+    <p>A GPU-accelerated passive-particle tracer for following fluid trajectories in AsterX simulations.</p>
     <a href="https://github.com/jaykalinani/FlowTracerX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -56,7 +57,7 @@ nav_order: 2
       <h3>ParticleAHFinderX</h3>
       <p>Lead developer &amp; maintainer · 2026–present · Private repository</p>
     </header>
-    <p>GPU-accelerated software for locating black-hole boundaries in simulations.</p>
+    <p>A GPU-accelerated, particle-based apparent-horizon finder for numerical-relativity simulations.</p>
     <a href="mailto:{{ site.email }}?subject=ParticleAHFinderX%20repository%20access">Request access</a>
   </article>
 
@@ -65,7 +66,7 @@ nav_order: 2
       <h3>AsterAI</h3>
       <p>Lead developer &amp; maintainer · 2025–present</p>
     </header>
-    <p>Experimental tools that use language models to help review C and C++ scientific software.</p>
+    <p>An experimental toolkit that uses large language models to review C and C++ scientific code.</p>
     <a href="https://github.com/jaykalinani/AsterAI" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 </div>
@@ -78,7 +79,7 @@ nav_order: 2
       <h3>Spritz</h3>
       <p>Developer · 2020–present</p>
     </header>
-    <p>Software for simulating magnetized matter and approximate neutrino effects around compact objects.</p>
+    <p>A fully general-relativistic magnetohydrodynamics code for dynamical spacetimes, with finite-temperature equations of state and approximate neutrino cooling and heating.</p>
     <a href="https://zenodo.org/records/4350072" target="_blank" rel="noopener noreferrer">Project record <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -87,7 +88,7 @@ nav_order: 2
       <h3>SpacetimeX</h3>
       <p>Developer · 2022–present</p>
     </header>
-    <p>Modules for initializing and evolving spacetime.</p>
+    <p>CarpetX-based modules for preparing initial data, evolving the spacetime metric, and analyzing numerical-relativity simulations.</p>
     <a href="https://github.com/EinsteinToolkit/SpacetimeX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -96,7 +97,7 @@ nav_order: 2
       <h3>CarpetX</h3>
       <p>Contributor · 2022–present</p>
     </header>
-    <p>The high-performance grid and time-evolution layer used by many Einstein Toolkit simulations.</p>
+    <p>A Cactus driver for the Einstein Toolkit that provides block-structured adaptive mesh refinement through AMReX.</p>
     <a href="https://github.com/EinsteinToolkit/CarpetX" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
   </article>
 
@@ -105,7 +106,7 @@ nav_order: 2
       <h3>RePrimAnd</h3>
       <p>Contributor · 2021</p>
     </header>
-    <p>A library that converts evolved simulation data back into physical fluid variables.</p>
+    <p>A library for recovering primitive fluid variables from the conserved variables evolved in GRMHD simulations, with equation-of-state support.</p>
     <a href="https://wokast.github.io/RePrimAnd/index.html" target="_blank" rel="noopener noreferrer">Documentation <span aria-hidden="true">↗</span></a>
   </article>
 </div>

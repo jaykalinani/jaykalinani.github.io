@@ -8,8 +8,9 @@ nav_order: 4
 ---
 
 <p class="page-lede">
-  I share work on extreme astrophysical systems, scientific software, and large-scale
-  computing through seminars, conference talks, tutorials, and posters.
+  I present research on compact-object mergers, relativistic jets, numerical relativity,
+  and GPU-accelerated scientific software through seminars, conference talks, tutorials,
+  and posters.
 </p>
 
 <p class="talk-summary"><strong>23</strong> invited talks and tutorials <span aria-hidden="true">·</span> <strong>23</strong> contributed presentations</p>

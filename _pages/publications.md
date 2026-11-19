@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected papers on compact-object mergers, relativistic jets, and scientific software.
+description: Selected papers on compact-object mergers, relativistic outflows, nucleosynthesis, and scientific software.
 nav: true
 nav_order: 3
 ---
@@ -16,7 +16,7 @@ nav_order: 3
   <div class="publication-feature__image">
     <img
       src="{{ '/assets/img/publications/figure-10-smbh-jet-variability.webp' | relative_url }}"
-      alt="Four three-dimensional views of gas density and magnetic-field lines around a supermassive black-hole binary, with black spheres marking the horizons"
+      alt="Four three-dimensional renderings of rest-mass density and selected magnetic-field lines around a supermassive black-hole binary; black spheres mark the apparent horizons"
       width="2176"
       height="2176"
       decoding="async"
@@ -26,7 +26,7 @@ nav_order: 3
   <div class="publication-feature__copy">
     <span class="media-kicker">Submitted to ApJL · 2026</span>
     <h2>Jet variability in small mass ratio supermassive black hole binaries</h2>
-    <p>Three-dimensional simulations of a precessing binary with a 1:7 mass ratio connect repeated passages of the smaller black hole through the inner disk to recurring disturbances that travel along the jet.</p>
+    <p>Three-dimensional simulations of a precessing binary with mass ratio q = 1/7 show that the smaller black hole repeatedly crosses and shocks the inner accretion flow, launching quasi-periodic disturbances that propagate along the relativistic jet.</p>
     <div class="publication-feature__links">
       <a href="https://arxiv.org/abs/2609.24837" target="_blank" rel="noopener noreferrer">Read the preprint <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#supermassive-black-hole-binaries' | relative_url }}">Explore the research project <span aria-hidden="true">→</span></a>
@@ -49,7 +49,7 @@ nav_order: 3
   <div class="publication-feature__copy">
     <span class="media-kicker">The Astrophysical Journal Letters 1000, L35 · 2026</span>
     <h2>Jet–environment interaction after delayed collapse</h2>
-    <p>Simulations show how the lifetime of the massive neutron-star remnant controls how much matter fills the polar region and, in turn, how easily the black-hole–driven jet can escape.</p>
+    <p>Simulations show that the lifetime of the massive neutron-star remnant sets the density and extent of the pre-collapse polar outflow, which in turn governs the propagation and expected breakout timescale of the subsequent black-hole–powered jet.</p>
     <div class="publication-feature__links">
       <a href="https://doi.org/10.3847/2041-8213/ae402a" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="{{ '/projects/#jet-environment-movie' | relative_url }}">Watch the simulation <span aria-hidden="true">→</span></a>

@@ -10,7 +10,7 @@ nav_order: 1
 <section class="simulation-chapter" id="binary-neutron-star-mergers">
   <header class="simulation-chapter__heading">
     <h2>Binary neutron star mergers</h2>
-    <p>I study how neutron-star matter, neutrinos, magnetic fields, and spin control the material thrown out by a merger and whether a relativistic jet can escape.</p>
+    <p>I study how remnant lifetime, magnetic fields, neutrino transport, and neutron-star spin shape the ejecta, nucleosynthesis, and the formation and propagation of relativistic jets.</p>
   </header>
 
   <figure class="simulation-card simulation-card--wide" id="jet-environment-movie">
@@ -22,8 +22,8 @@ nav_order: 1
     </div>
     <figcaption class="simulation-card__copy">
       <span class="media-meta">Binary neutron star merger</span>
-      <h3>A jet propagating through merger ejecta</h3>
-      <p>Four physical views track a black-hole–driven jet as it shocks and moves through material expelled before the remnant collapsed.</p>
+      <h3>A jet propagating through pre-collapse outflows</h3>
+      <p>Four diagnostics track the black-hole–disk-driven jet as it propagates through the dense polar outflow launched before collapse, producing shocks and intermittent stalling.</p>
       <a class="simulation-card__link" href="https://arxiv.org/abs/2505.09426" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a>
     </figcaption>
   </figure>
@@ -32,7 +32,7 @@ nav_order: 1
 <section class="simulation-chapter" id="supermassive-black-hole-binaries">
   <header class="simulation-chapter__heading">
     <h2>Supermassive black hole binaries</h2>
-    <p>I simulate precessing, unequal-mass black-hole binaries inside magnetized disks to connect activity near the binary with changes seen farther along the jet.</p>
+    <p>I use three-dimensional GRMHD simulations of a precessing, unequal-mass supermassive black-hole binary embedded in a magnetized circumbinary disk to link cavity dynamics to variability in the large-scale jet.</p>
     <a class="simulation-chapter__link" href="https://arxiv.org/abs/2609.24837" target="_blank" rel="noopener noreferrer">Read the preprint <span aria-hidden="true">↗</span></a>
   </header>
 
@@ -46,7 +46,7 @@ nav_order: 1
     <figcaption class="simulation-card__copy">
       <span class="media-meta">Supermassive black hole binary</span>
       <h3>Disk–binary interaction</h3>
-      <p>Density in two cross-sections follows streams of gas crossing the central cavity and feeding the two black holes.</p>
+      <p>Rest-mass density in the orbital and meridional planes traces gas streams entering the circumbinary cavity and feeding the individual black holes.</p>
     </figcaption>
   </figure>
 
@@ -62,7 +62,7 @@ nav_order: 1
         <figcaption class="simulation-card__copy">
           <span class="media-meta">Near the binary</span>
           <h3>Near-zone variability</h3>
-          <p>As the smaller black hole crosses the inner disk, it pushes magnetized gas toward the jet and perturbs the outflow.</p>
+          <p>As the secondary black hole crosses the inner accretion flow, it displaces magnetized gas into alternating jet funnels, loading the outflow and launching compressive shocks.</p>
         </figcaption>
       </figure>
 
@@ -76,7 +76,7 @@ nav_order: 1
         <figcaption class="simulation-card__copy">
           <span class="media-meta">Three-dimensional jet view</span>
           <h3>Global jet structure</h3>
-          <p>Density surfaces and magnetic-field lines show disturbances launched near the binary travelling into the large-scale jet.</p>
+          <p>Rest-mass density isosurfaces and magnetic-field lines trace shock-driven disturbances from the binary cavity as they propagate to thousands of gravitational radii along the jet.</p>
         </figcaption>
       </figure>
     </div>
@@ -86,7 +86,7 @@ nav_order: 1
 <section class="simulation-chapter" id="asterx">
   <header class="simulation-chapter__heading">
     <h2>AsterX</h2>
-    <p>AsterX is open-source, GPU-accelerated software that evolves magnetized matter and spacetime together.</p>
+    <p>AsterX is an open-source, GPU-accelerated general-relativistic magnetohydrodynamics code for dynamical spacetimes.</p>
     <a class="simulation-chapter__link" href="https://github.com/EinsteinToolkit/AsterX" target="_blank" rel="noopener noreferrer">View AsterX on GitHub <span aria-hidden="true">↗</span></a>
   </header>
 
@@ -100,7 +100,7 @@ nav_order: 1
     <figcaption class="simulation-card__copy">
       <span class="media-meta">AsterX · tracer particles</span>
       <h3>Kelvin–Helmholtz instability</h3>
-      <p>Tracer particles follow vortices that form when a velocity difference rolls the fluid interface into the Kelvin–Helmholtz instability.</p>
+      <p>Tracer particles follow vortices as the Kelvin–Helmholtz instability develops along a shear layer between fluids moving at different velocities.</p>
     </figcaption>
   </figure>
 
@@ -115,7 +115,7 @@ nav_order: 1
       <figcaption class="simulation-card__copy">
         <span class="media-meta">AsterX · merger remnant</span>
         <h3>Magnetized post-merger remnant</h3>
-        <p>Density surfaces and magnetic-field lines reveal the turbulent, magnetized remnant formed after the stars merge.</p>
+        <p>Rest-mass density isosurfaces and magnetic-field lines visualize the turbulent, magnetized remnant formed after coalescence.</p>
       </figcaption>
     </figure>
   </div>
@@ -124,7 +124,7 @@ nav_order: 1
 <section class="simulation-chapter" id="nux">
   <header class="simulation-chapter__heading">
     <h2>nuX</h2>
-    <p>nuX follows neutrinos as they move through and exchange energy with matter in mergers and collapsing stars. It runs on GPUs and is designed to work directly with AsterX.</p>
+    <p>nuX is a GPU-accelerated neutrino-transport module for dynamical spacetimes. Its two-moment M1 scheme evolves multiple neutrino species and their energy–momentum exchange with matter, and couples directly to AsterX.</p>
     <a class="simulation-chapter__link" href="https://github.com/jaykalinani/nuX" target="_blank" rel="noopener noreferrer">View nuX on GitHub <span aria-hidden="true">↗</span></a>
   </header>
 
@@ -143,7 +143,7 @@ nav_order: 1
     <figcaption class="simulation-card__copy">
       <span class="media-meta">nuX · beam bending</span>
       <h3>Radiation in curved spacetime</h3>
-      <p>Both methods recover the expected curved path of a narrow radiation beam in a fixed gravitational field.</p>
+      <p>nuX and THC reproduce the bending of a narrow radiation beam along null geodesics in a prescribed curved spacetime.</p>
     </figcaption>
   </figure>
 </section>
@@ -151,8 +151,8 @@ nav_order: 1
 <section class="simulation-chapter" id="bhclusterx">
   <header class="simulation-chapter__heading">
     <h2>BHClusterX</h2>
-    <p>BHClusterX prepares simulations containing any number of black holes. This enables studies of hierarchical mergers, in which earlier merger remnants form new binaries and merge again.</p>
-    <a class="simulation-chapter__link" href="https://github.com/jaykalinani/BHClusterX" target="_blank" rel="noopener noreferrer">View BHClusterX on GitHub <span aria-hidden="true">↗</span></a>
+    <p>BHClusterX constructs initial data for many moving and spinning black holes on GPUs using the Bowen–York puncture method. It supports studies of compact black-hole clusters and hierarchical mergers, in which merger remnants later merge again.</p>
+    <a class="simulation-chapter__link" href="mailto:{{ site.email }}?subject=BHClusterX%20repository%20access">Request access</a>
   </header>
 
   <figure class="simulation-card simulation-card--wide">
@@ -165,7 +165,7 @@ nav_order: 1
     <figcaption class="simulation-card__copy">
       <span class="media-meta">BHClusterX · four black holes</span>
       <h3>A moving black-hole quartet</h3>
-      <p>The conformal factor ψ shows how spacetime changes as four black holes move inward and merge into a single, more massive remnant.</p>
+      <p>The conformal factor ψ tracks the evolving spatial geometry as four black holes approach and merge into a single, more massive remnant.</p>
     </figcaption>
   </figure>
 </section>
