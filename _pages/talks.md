@@ -20,20 +20,22 @@ nav_order: 4
 <div class="talk-list talk-list--invited">
   <article><time datetime="2026-07">Jul 2026</time><div><h2>Relativistic outflows from compact-object binaries</h2><p>New Frontiers in Strong Gravity · Benasque, Spain</p></div></article>
   <article><time datetime="2026-03">Mar 2026</time><div><h2>General Relativistic Magnetohydrodynamics on GPUs</h2><p>APS Global Physics Summit · Denver, USA</p></div></article>
-  <article><time>2025–2026</time><div><h2>Towards end-to-end modelling of jets from BNS mergers</h2><p>Nuclear Physics from Multi-Messenger Mergers Seminar · Online · Feb 2026</p><p>Astrophysics, Relativity, and Cosmology Seminar · UIUC · Oct 2025</p></div></article>
+  <article><time datetime="2026-02">Feb 2026</time><div><h2>Towards end-to-end modelling of jets from BNS mergers</h2><p>Nuclear Physics from Multi-Messenger Mergers Seminar · Online</p></div></article>
   <article><time datetime="2025-12">Dec 2025</time><div><h2>Tutorial on the AsterX code</h2><p>European Einstein Toolkit Meeting · Online</p></div></article>
   <article><time datetime="2025-08">Aug 2025</time><div><h2>nuX-M1: GPU-accelerated moment-based neutrino radiation transport</h2><p>Einstein Toolkit CSSI Workshop · UIUC</p></div></article>
   <article><time datetime="2025-06">Jun 2025</time><div><h2>The AsterX and nuX codes</h2><p>North American Einstein Toolkit Workshop · University of Texas at Austin</p></div></article>
   <article><time datetime="2025-04">Apr 2025</time><div><h2>End-to-end modelling of jets from BNS mergers</h2><p>7th Neighbourhood Workshop · Penn State University · Plenary</p></div></article>
+  <article><time datetime="2023-08">Aug 2023</time><div><h2>Binary Neutron Star Merger Simulations: Long-Lived Remnants, Short Gamma-Ray Bursts &amp; Kilonovae</h2><p>INT 23-2 Workshop · University of Washington, USA</p></div></article>
 </div>
 
 <h2 class="section-heading" id="contributed-talks">Recent contributed presentations</h2>
 
 <div class="talk-list talk-list--contributed">
-  <article><time datetime="2026-07">Jul 2026</time><div><h2>Jet variability in small mass ratio supermassive black-hole binaries</h2><p>16th International LISA Symposium · College Park, USA</p><p>UK &amp; Ireland Discs Meeting · Online · Poster</p></div></article>
+  <article><time datetime="2026-07">Jul 2026</time><div><h2>Jet variability in small mass ratio supermassive black-hole binaries</h2><p>16th International LISA Symposium · College Park, USA</p></div></article>
   <article><time datetime="2026-03">Mar 2026</time><div><h2>Jet–environment interaction after delayed collapse in BNS mergers</h2><p>3rd International Online Conference on Universe · Online</p></div></article>
   <article><time datetime="2024-12">Dec 2024</time><div><h2>AsterX: an open-source GPU-accelerated GRMHD code for dynamical spacetimes</h2><p>Numerical Relativity Community · Online</p></div></article>
   <article><time datetime="2024-04">Apr 2024</time><div><h2>End-to-end modelling of jets from binary neutron star mergers</h2><p>APS April Meeting · Sacramento, USA</p></div></article>
+  <article><time datetime="2022-07">Jul 2022</time><div><h2>Magnetized BNS merger simulations and prospects of launching SGRB jets</h2><p>COSPAR 44th Scientific Assembly · Athens, Greece</p></div></article>
 </div>
 
 <p class="page-cta">The complete chronological record is available in my <a href="{{ '/assets/pdf/Kalinani_CV.pdf?v=20261027' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>.</p>
